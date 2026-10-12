@@ -1,14 +1,13 @@
 #!/bin/python
 # Getting Data for F1 Prediction Model
 ##for this project we are using the FastF1 library to get 
-##the data from the Ergast API and the FastF1 API.
+##the data from the Ergast API and the FastF1 API. With this data
+##we are creating some plots for practice and getting a better understanding of the data.
 
-import fastf1
-import seaborn as sns
-from matplotlib import pyplot as plt
-
-import fastf1
-import fastf1.plotting
+import seaborn as sns # type: ignore
+from matplotlib import pyplot as plt # type: ignore
+import fastf1 # type: ignore
+import fastf1.plotting # type: ignore
 
 # Enable Matplotlib patches for plotting timedelta values and load
 # FastF1's dark color scheme
