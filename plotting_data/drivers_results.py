@@ -14,27 +14,43 @@ results = []
 
 # For each race in the season
 for rnd, race in races['raceName'].items():
+    print(f"Round {rnd + 1}: {race} getting information...", flush=True)
+    round_number = rnd + 1
 
-    # Get results. Note that we use the round no. + 1, because the round no.
-    # starts from one (1) instead of zero (0)
-    time.sleep(2)  # Avoid hitting the API too fast
-    temp = ergast.get_race_results(season=2022, round=rnd + 1)
-    temp = temp.content[0]
+    # Wacht vóór iedere API-aanvraag
+    time.sleep(2)
+    response = ergast.get_race_results(
+        season=2022, round=round_number
+    )
+    temp = response.content[0].copy()
 
-    # If there is a sprint, get the results as well
-    time.sleep(2)  # Avoid hitting the API too fast
-    sprint = ergast.get_sprint_results(season=2022, round=rnd + 1)
-    if sprint.content and sprint.description['round'][0] == rnd + 1:
-        temp = pd.merge(temp, sprint.content[0], on='driverCode', how='left')
-        # Add sprint points and race points to get the total
-        temp['points'] = temp['points_x'] + temp['points_y']
-        temp.drop(columns=['points_x', 'points_y'], inplace=True)
+    time.sleep(2)
+    sprint = ergast.get_sprint_results(
+        season=2022, round=round_number
+    )
 
-    # Add round no. and grand prix name
-    temp['round'] = rnd + 1
+    if sprint.content:
+        sprint_points = sprint.content[0][['driverCode', 'points']]
+
+        temp = pd.merge(
+            temp,
+            sprint_points,
+            on='driverCode',
+            how='left',
+            suffixes=('', '_sprint')
+        )
+
+        temp['points'] = (
+            temp['points'] + temp['points_sprint'].fillna(0)
+        )
+        temp.drop(columns='points_sprint', inplace=True)
+
+    temp['round'] = round_number
     temp['race'] = race.removesuffix(' Grand Prix')
-    temp = temp[['round', 'race', 'driverCode', 'points']]  # Keep useful cols.
+    temp = temp[['round', 'race', 'driverCode', 'points']]
     results.append(temp)
+    print("Racegegevens ontvangen", flush=True)
+
 
 # Append all races into a single dataframe
 results = pd.concat(results)

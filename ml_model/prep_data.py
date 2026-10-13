@@ -3,38 +3,41 @@
 ##trying to get the data from the Ergast API and the FastF1 API. With this data
 ##we are create the first machine learning model to predict the race winner
 
-import fastf1 # type: ignore
+import pandas as pd
+from fastf1.ergast import Ergast
 from pathlib import Path
 
 Path('ml_model/data').mkdir(parents=True, exist_ok=True)
 
-season_2025 = fastf1.get_event_schedule(2025, include_testing=False)
+years = list(range(2022, 2025))
 
-season_2025.to_csv('ml_model/data/season_2025.csv', index=False)
+for year in years:
+    print(f"Getting data for {year}...", flush=True)
+    ergast = Ergast()
+    race_schedule = ergast.get_race_schedule(year)
+    race_results = []
 
-for index, race in season_2025.iterrows():
-    #selecting the event name, round number, location and country from the dataframe
-    event_name = race['EventName']
-    event_round = race['RoundNumber']
-    event_location = race['Location']
-    event_country = race['Country']
-    print(f"Getting data for {event_name} - Round {event_round} in {event_location}, {event_country}")
-    #see if there is a sprint race for the event, if there is then get the data for the sprint race as well
-    if race['EventFormat'] == 'sprint_qualifying':
-        #get the sprintrace data for the event
-        print(f"Getting data for {event_name} - Round {event_round} in {event_location}, {event_country} (Sprint Race)")
-        sprint = fastf1.get_session(2025, event_round, 'S') #this one is specifically for the sprint race
-        sprint.load()
-        sprint_quali = fastf1.get_session(2025, event_round, 'SQ') #this one is specifically for the sprint qualifying
-        sprint_quali.load()
-        sprint_results = sprint.results
-        sprint_quali_results = sprint_quali.results
-    race = fastf1.get_session(2025, event_round, 'R')
-    race.load()
-    race_results = race.results
-    race_quali = fastf1.get_session(2025, event_round, 'Q')
-    race_quali.load()
-    race_quali_results = race_quali.results
+    for rnd, race in race_schedule['raceName'].items():
+        print(f"Round {rnd + 1}: {race} getting information...", flush=True)
+        round_number = rnd + 1
+        response = ergast.get_race_results(
+            season=year,
+            round=round_number
+        )
+        temp = response.content[0].copy()
+        temp['round'] = round_number
+        temp['race'] = race.removesuffix(' Grand Prix')
+        temp = temp[['position', 'points', 'grid', 'laps', 'status', 
+                     'driverNumber', 'driverCode', 'givenName', 'familyName', 
+                     'constructorId', 'constructorName', 'totalRaceTimeMillis', 
+                     'totalRaceTime', 'fastestLapRank', 'fastestLapNumber', 
+                     'fastestLapTime', 'fastestLapAvgSpeedUnits', 'fastestLapAvgSpeed', 
+                     'round', 'race']]
+        race_results.append(temp)
+        print("Race data received", flush=True)
 
-
+    # Append all races into a single dataframe
+    race_results_df = pd.concat(race_results)
+    sorted_results_df = race_results_df.sort_values(by=['round', 'driverNumber'], ascending=[True, True])
+    race_results_df.to_csv(f'ml_model/data/race_results_{year}.csv', index=False)
     
