@@ -9,7 +9,8 @@ from pathlib import Path
 
 Path('ml_model/data').mkdir(parents=True, exist_ok=True)
 
-years = list(range(2022, 2025))
+years = list(range(2024, 2025))
+years = [2024]  # For now, only get data for 2024. Add other years once the CSV files are available.
 
 for year in years:
     print(f"Getting data for {year}...", flush=True)
@@ -37,7 +38,16 @@ for year in years:
         print("Race data received", flush=True)
 
     # Append all races into a single dataframe
-    race_results_df = pd.concat(race_results)
-    sorted_results_df = race_results_df.sort_values(by=['round', 'driverNumber'], ascending=[True, True])
-    race_results_df.to_csv(f'ml_model/data/race_results_{year}.csv', index=False)
-    
+    race_results_df = pd.concat(race_results, ignore_index=True)
+    #Add the year column to the dataframe
+    race_results_df['year'] = year
+
+    #Sort the dataset based on the round and driverCode columns
+    sorted_results_df = race_results_df.sort_values(
+        by=['round', 'driverCode']
+    )
+
+    sorted_results_df.to_csv(
+        f'ml_model/data/race_results_{year}.csv',
+        index=False
+    )
