@@ -1,0 +1,480 @@
+position,points,grid,laps,status,driverNumber,driverCode,givenName,familyName,constructorId,constructorName,totalRaceTimeMillis,totalRaceTime,fastestLapRank,fastestLapNumber,fastestLapTime,fastestLapAvgSpeedUnits,fastestLapAvgSpeed,round,race,year
+15,0.0,13,56,Lapped,23,ALB,Alexander,Albon,williams,Williams,5516628.0,0 days 00:00:11.886000,17.0,40.0,0 days 00:01:35.723000,kph,203.537,1,Bahrain,2024
+9,2.0,6,57,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5579629.0,0 days 00:01:14.887000,3.0,48.0,0 days 00:01:34.199000,kph,206.83,1,Bahrain,2024
+19,0.0,16,56,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5587972.0,0 days 00:01:23.230000,19.0,33.0,0 days 00:01:36.202000,kph,202.523,1,Bahrain,2024
+18,0.0,20,56,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5537159.0,0 days 00:00:32.417000,9.0,45.0,0 days 00:01:34.805000,kph,205.508,1,Bahrain,2024
+7,6.0,9,57,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5555066.0,0 days 00:00:50.324000,7.0,39.0,0 days 00:01:34.722000,kph,205.688,1,Bahrain,2024
+16,0.0,10,56,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5522374.0,0 days 00:00:17.632000,10.0,46.0,0 days 00:01:34.834000,kph,205.445,1,Bahrain,2024
+4,12.0,2,57,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5544411.0,0 days 00:00:39.669000,2.0,36.0,0 days 00:01:34.090000,kph,207.069,1,Bahrain,2024
+12,0.0,15,56,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5513058.0,0 days 00:00:08.316000,15.0,34.0,0 days 00:01:35.570000,kph,203.863,1,Bahrain,2024
+6,8.0,7,57,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5553200.0,0 days 00:00:48.458000,5.0,35.0,0 days 00:01:34.476000,,,1,Bahrain,2024
+17,0.0,19,56,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5536192.0,0 days 00:00:31.450000,20.0,34.0,0 days 00:01:36.226000,kph,202.473,1,Bahrain,2024
+2,18.0,5,57,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5527199.0,0 days 00:00:22.457000,4.0,40.0,0 days 00:01:34.364000,kph,206.468,1,Bahrain,2024
+8,4.0,8,57,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5560824.0,0 days 00:00:56.082000,11.0,39.0,0 days 00:01:34.983000,,,1,Bahrain,2024
+13,0.0,14,56,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5513700.0,0 days 00:00:08.958000,13.0,37.0,0 days 00:01:35.163000,kph,204.735,1,Bahrain,2024
+5,10.0,3,57,Finished,63,RUS,George,Russell,mercedes,Mercedes,5551530.0,0 days 00:00:46.788000,12.0,40.0,0 days 00:01:35.065000,kph,204.946,1,Bahrain,2024
+3,15.0,4,57,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5529852.0,0 days 00:00:25.110000,6.0,44.0,0 days 00:01:34.507000,kph,206.156,1,Bahrain,2024
+20,0.0,18,55,Lapped,2,SAR,Logan,Sargeant,williams,Williams,5525537.0,0 days 00:00:20.795000,8.0,42.0,0 days 00:01:34.735000,kph,205.659,1,Bahrain,2024
+10,1.0,12,57,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,5597958.0,0 days 00:01:33.216000,16.0,30.0,0 days 00:01:35.632000,kph,203.73,1,Bahrain,2024
+14,0.0,11,56,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5514224.0,0 days 00:00:09.482000,18.0,37.0,0 days 00:01:35.833000,kph,203.303,1,Bahrain,2024
+1,26.0,1,57,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5504742.0,0 days 01:31:44.742000,1.0,39.0,0 days 00:01:32.608000,kph,210.383,1,Bahrain,2024
+11,0.0,17,56,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5511501.0,0 days 00:00:06.759000,14.0,30.0,0 days 00:01:35.458000,kph,204.102,1,Bahrain,2024
+11,0.0,12,50,Finished,23,ALB,Alexander,Albon,williams,Williams,4931627.0,0 days 00:01:28.354000,9.0,50.0,0 days 00:01:32.307000,kph,240.787,2,Saudi Arabian,2024
+5,10.0,4,50,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,4879032.0,0 days 00:00:35.759000,13.0,43.0,0 days 00:01:32.387000,kph,240.579,2,Saudi Arabian,2024
+7,6.0,11,50,Finished,87,BEA,Oliver,Bearman,ferrari,Ferrari,4885952.0,0 days 00:00:42.679000,5.0,50.0,0 days 00:01:32.186000,kph,241.103,2,Saudi Arabian,2024
+17,0.0,16,49,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,4866388.0,0 days 00:00:23.115000,14.0,49.0,0 days 00:01:32.706000,kph,239.751,2,Saudi Arabian,2024
+20,0.0,18,1,Retired,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,,,,,,,,2,Saudi Arabian,2024
+9,2.0,8,50,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,4890664.0,0 days 00:00:47.391000,2.0,38.0,0 days 00:01:31.746000,kph,242.26,2,Saudi Arabian,2024
+10,1.0,15,50,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,4920269.0,0 days 00:01:16.996000,12.0,49.0,0 days 00:01:32.366000,kph,240.633,2,Saudi Arabian,2024
+3,16.0,2,50,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,4861912.0,0 days 00:00:18.639000,1.0,50.0,0 days 00:01:31.632000,kph,242.561,2,Saudi Arabian,2024
+12,0.0,13,50,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,4949010.0,0 days 00:01:45.737000,11.0,47.0,0 days 00:01:32.338000,kph,240.706,2,Saudi Arabian,2024
+8,4.0,6,50,Finished,1,NOR,Lando,Norris,mclaren,McLaren,4888981.0,0 days 00:00:45.708000,4.0,40.0,0 days 00:01:31.944000,,,2,Saudi Arabian,2024
+13,0.0,17,49,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,4847274.0,0 days 00:00:04.001000,17.0,48.0,0 days 00:01:33.481000,kph,237.763,2,Saudi Arabian,2024
+2,18.0,3,50,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,4856916.0,0 days 00:00:13.643000,8.0,37.0,0 days 00:01:32.273000,kph,240.876,2,Saudi Arabian,2024
+4,12.0,5,50,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,4875280.0,0 days 00:00:32.007000,10.0,45.0,0 days 00:01:32.310000,,,2,Saudi Arabian,2024
+16,0.0,14,49,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,4863988.0,0 days 00:00:20.715000,16.0,47.0,0 days 00:01:33.323000,kph,238.166,2,Saudi Arabian,2024
+6,8.0,7,50,Finished,63,RUS,George,Russell,mercedes,Mercedes,4883209.0,0 days 00:00:39.936000,7.0,42.0,0 days 00:01:32.254000,kph,240.926,2,Saudi Arabian,2024
+14,0.0,19,49,Lapped,2,SAR,Logan,Sargeant,williams,Williams,4850058.0,0 days 00:00:06.785000,15.0,49.0,0 days 00:01:33.026000,,,2,Saudi Arabian,2024
+19,0.0,10,5,Retired,18,STR,Lance,Stroll,aston_martin,Aston Martin,,,19.0,5.0,0 days 00:01:35.560000,kph,232.591,2,Saudi Arabian,2024
+15,0.0,9,49,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,4853806.0,0 days 00:00:10.533000,18.0,44.0,0 days 00:01:33.523000,,,2,Saudi Arabian,2024
+1,25.0,1,50,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,4843273.0,0 days 01:20:43.273000,3.0,50.0,0 days 00:01:31.773000,kph,242.188,2,Saudi Arabian,2024
+18,0.0,20,49,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,4872826.0,0 days 00:00:29.553000,6.0,49.0,0 days 00:01:32.208000,kph,241.046,2,Saudi Arabian,2024
+11,0.0,12,57,Lapped,23,ALB,Alexander,Albon,williams,Williams,4831852.0,0 days 00:00:05.009000,17.0,46.0,0 days 00:01:21.618000,kph,232.801,3,Australian,2024
+8,4.0,10,58,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,4927835.0,0 days 00:01:40.992000,7.0,52.0,0 days 00:01:20.493000,kph,236.055,3,Australian,2024
+14,0.0,13,57,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,4869169.0,0 days 00:00:42.326000,16.0,48.0,0 days 00:01:21.422000,kph,233.361,3,Australian,2024
+13,0.0,17,57,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,4867796.0,0 days 00:00:40.953000,10.0,51.0,0 days 00:01:21.090000,kph,234.317,3,Australian,2024
+18,0.0,11,15,Retired,44,HAM,Lewis,Hamilton,mercedes,Mercedes,,,18.0,11.0,0 days 00:01:22.444000,kph,230.469,3,Australian,2024
+9,2.0,16,58,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,4931396.0,0 days 00:01:44.553000,12.0,46.0,0 days 00:01:21.145000,kph,234.158,3,Australian,2024
+2,19.0,4,58,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,4829209.0,0 days 00:00:02.366000,1.0,56.0,0 days 00:01:19.813000,kph,238.066,3,Australian,2024
+10,1.0,14,57,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,4830924.0,0 days 00:00:04.081000,9.0,44.0,0 days 00:01:21.082000,kph,234.34,3,Australian,2024
+3,15.0,3,58,Finished,1,NOR,Lando,Norris,mclaren,McLaren,4832747.0,0 days 00:00:05.904000,2.0,49.0,0 days 00:01:19.915000,,,3,Australian,2024
+16,0.0,15,57,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,4880822.0,0 days 00:00:53.979000,15.0,45.0,0 days 00:01:21.354000,kph,233.557,3,Australian,2024
+5,10.0,6,58,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,4883152.0,0 days 00:00:56.309000,6.0,47.0,0 days 00:01:20.388000,kph,236.363,3,Australian,2024
+4,12.0,5,58,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,4862613.0,0 days 00:00:35.770000,4.0,54.0,0 days 00:01:20.199000,,,3,Australian,2024
+12,0.0,18,57,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,4838351.0,0 days 00:00:11.508000,13.0,46.0,0 days 00:01:21.239000,kph,233.887,3,Australian,2024
+17,0.0,7,56,Retired,63,RUS,George,Russell,mercedes,Mercedes,4684734.0,,5.0,53.0,0 days 00:01:20.284000,kph,236.669,3,Australian,2024
+1,25.0,2,58,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,4826843.0,0 days 01:20:26.843000,3.0,48.0,0 days 00:01:20.031000,kph,237.418,3,Australian,2024
+6,8.0,9,58,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,4920065.0,0 days 00:01:33.222000,8.0,49.0,0 days 00:01:20.930000,kph,234.78,3,Australian,2024
+7,6.0,8,58,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,4922444.0,0 days 00:01:35.601000,11.0,46.0,0 days 00:01:21.134000,kph,234.19,3,Australian,2024
+19,0.0,1,3,Retired,3,VER,Max,Verstappen,red_bull,Red Bull,,,19.0,3.0,0 days 00:01:23.115000,kph,228.608,3,Australian,2024
+15,0.0,19,57,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,4871136.0,0 days 00:00:44.293000,14.0,49.0,0 days 00:01:21.327000,kph,233.634,3,Australian,2024
+20,0.0,14,0,Retired,23,ALB,Alexander,Albon,williams,Williams,,,,,,,,4,Japanese,2024
+6,8.0,5,53,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,6907838.0,0 days 00:00:44.272000,6.0,53.0,0 days 00:01:34.726000,kph,220.691,4,Japanese,2024
+14,0.0,13,52,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,6882459.0,0 days 00:00:18.893000,15.0,25.0,0 days 00:01:36.608000,kph,216.392,4,Japanese,2024
+16,0.0,17,52,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,6918632.0,0 days 00:00:55.066000,16.0,48.0,0 days 00:01:36.642000,kph,216.315,4,Japanese,2024
+9,2.0,7,53,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,6912192.0,0 days 00:00:48.626000,4.0,41.0,0 days 00:01:33.952000,kph,222.509,4,Japanese,2024
+11,0.0,12,52,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,6870734.0,0 days 00:00:07.168000,11.0,52.0,0 days 00:01:35.325000,kph,219.304,4,Japanese,2024
+4,12.0,8,53,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,6890088.0,0 days 00:00:26.522000,9.0,53.0,0 days 00:01:35.044000,kph,219.952,4,Japanese,2024
+13,0.0,18,52,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,6881485.0,0 days 00:00:17.919000,17.0,24.0,0 days 00:01:36.654000,kph,216.289,4,Japanese,2024
+5,10.0,3,53,Finished,1,NOR,Lando,Norris,mclaren,McLaren,6893266.0,0 days 00:00:29.700000,10.0,51.0,0 days 00:01:35.186000,,,4,Japanese,2024
+15,0.0,15,52,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,6904718.0,0 days 00:00:41.152000,13.0,52.0,0 days 00:01:36.232000,kph,217.237,4,Japanese,2024
+2,18.0,2,53,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,6876101.0,0 days 00:00:12.535000,3.0,35.0,0 days 00:01:33.945000,kph,222.525,4,Japanese,2024
+8,4.0,6,53,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,6911091.0,0 days 00:00:47.525000,7.0,35.0,0 days 00:01:34.802000,,,4,Japanese,2024
+19,0.0,11,0,Retired,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,,,,,,,,4,Japanese,2024
+7,6.0,9,53,Finished,63,RUS,George,Russell,mercedes,Mercedes,6909517.0,0 days 00:00:45.951000,5.0,39.0,0 days 00:01:34.404000,kph,221.444,4,Japanese,2024
+3,15.0,4,53,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,6884432.0,0 days 00:00:20.866000,2.0,46.0,0 days 00:01:33.841000,kph,222.772,4,Japanese,2024
+17,0.0,19,52,Lapped,2,SAR,Logan,Sargeant,williams,Williams,6936331.0,0 days 00:01:12.765000,8.0,43.0,0 days 00:01:34.900000,kph,220.286,4,Japanese,2024
+12,0.0,16,52,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,6874799.0,0 days 00:00:11.233000,12.0,41.0,0 days 00:01:35.798000,kph,218.221,4,Japanese,2024
+10,1.0,10,52,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,6865168.0,0 days 00:00:01.602000,14.0,51.0,0 days 00:01:36.342000,kph,216.989,4,Japanese,2024
+1,26.0,1,53,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,6863566.0,0 days 01:54:23.566000,1.0,50.0,0 days 00:01:33.706000,kph,223.093,4,Japanese,2024
+18,0.0,20,12,Retired,24,ZHO,Guanyu,Zhou,sauber,Sauber,,,18.0,9.0,0 days 00:01:37.160000,kph,215.162,4,Japanese,2024
+12,0.0,14,56,Finished,23,ALB,Alexander,Albon,williams,Williams,6118060.0,0 days 00:01:05.506000,12.0,34.0,0 days 00:01:40.790000,kph,194.697,5,Chinese,2024
+7,7.0,3,56,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,6095968.0,0 days 00:00:43.414000,1.0,45.0,0 days 00:01:37.810000,kph,200.629,5,Chinese,2024
+20,0.0,10,19,Retired,77,BOT,Valtteri,Bottas,sauber,Sauber,,,19.0,11.0,0 days 00:01:41.276000,kph,193.763,5,Chinese,2024
+13,0.0,15,56,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,6121777.0,0 days 00:01:09.223000,5.0,40.0,0 days 00:01:39.198000,kph,197.822,5,Chinese,2024
+9,2.0,18,56,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,6110540.0,0 days 00:00:57.986000,14.0,34.0,0 days 00:01:40.835000,kph,194.61,5,Chinese,2024
+10,1.0,9,56,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,6113030.0,0 days 00:01:00.476000,13.0,32.0,0 days 00:01:40.815000,kph,194.649,5,Chinese,2024
+4,12.0,6,56,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,6076177.0,0 days 00:00:23.623000,6.0,33.0,0 days 00:01:39.384000,kph,197.452,5,Chinese,2024
+16,0.0,17,56,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,6140087.0,0 days 00:01:27.533000,18.0,45.0,0 days 00:01:41.077000,kph,194.145,5,Chinese,2024
+2,18.0,4,56,Finished,1,NOR,Lando,Norris,mclaren,McLaren,6066327.0,0 days 00:00:13.773000,4.0,33.0,0 days 00:01:38.751000,,,5,Chinese,2024
+11,0.0,13,56,Finished,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,6115366.0,0 days 00:01:02.812000,15.0,33.0,0 days 00:01:40.937000,kph,194.414,5,Chinese,2024
+3,15.0,2,56,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,6071714.0,0 days 00:00:19.160000,7.0,33.0,0 days 00:01:39.388000,kph,197.444,5,Chinese,2024
+8,4.0,5,56,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,6108752.0,0 days 00:00:56.198000,9.0,18.0,0 days 00:01:39.739000,,,5,Chinese,2024
+18,0.0,12,33,Retired,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,,,16.0,16.0,0 days 00:01:40.994000,kph,194.304,5,Chinese,2024
+6,8.0,8,56,Finished,63,RUS,George,Russell,mercedes,Mercedes,6091278.0,0 days 00:00:38.724000,11.0,39.0,0 days 00:01:40.112000,kph,196.016,5,Chinese,2024
+5,10.0,7,56,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,6086537.0,0 days 00:00:33.983000,10.0,19.0,0 days 00:01:39.764000,kph,196.7,5,Chinese,2024
+17,0.0,20,56,Finished,2,SAR,Logan,Sargeant,williams,Williams,6147664.0,0 days 00:01:35.110000,17.0,14.0,0 days 00:01:41,kph,194.293,5,Chinese,2024
+15,0.0,11,56,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,6135340.0,0 days 00:01:22.786000,8.0,37.0,0 days 00:01:39.444000,kph,197.333,5,Chinese,2024
+19,0.0,19,26,Retired,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,,,20.0,11.0,0 days 00:01:41.593000,kph,193.158,5,Chinese,2024
+1,25.0,1,56,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,6052554.0,0 days 01:40:52.554000,2.0,33.0,0 days 00:01:38.406000,kph,199.414,5,Chinese,2024
+14,0.0,16,56,Finished,24,ZHO,Guanyu,Zhou,sauber,Sauber,6124243.0,0 days 00:01:11.689000,3.0,42.0,0 days 00:01:38.633000,kph,198.955,5,Chinese,2024
+18,0.0,14,57,Finished,23,ALB,Alexander,Albon,williams,Williams,5525967.0,0 days 00:01:16.091000,2.0,55.0,0 days 00:01:30.849000,kph,214.456,6,Miami,2024
+9,2.0,15,57,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5486983.0,0 days 00:00:37.107000,11.0,55.0,0 days 00:01:31.727000,kph,212.404,6,Miami,2024
+16,0.0,16,57,Finished,77,BOT,Valtteri,Bottas,sauber,Sauber,5502232.0,0 days 00:00:52.356000,18.0,55.0,0 days 00:01:32.098000,kph,211.548,6,Miami,2024
+12,0.0,12,57,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5494834.0,0 days 00:00:44.958000,17.0,56.0,0 days 00:01:32.055000,kph,211.647,6,Miami,2024
+6,8.0,8,57,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5466461.0,0 days 00:00:16.585000,7.0,54.0,0 days 00:01:31.233000,kph,213.554,6,Miami,2024
+11,0.0,9,57,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5490665.0,0 days 00:00:40.789000,14.0,56.0,0 days 00:01:31.941000,kph,211.909,6,Miami,2024
+3,15.0,2,57,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5459796.0,0 days 00:00:09.920000,6.0,56.0,0 days 00:01:31.084000,kph,213.903,6,Miami,2024
+19,0.0,18,57,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5534559.0,0 days 00:01:24.683000,12.0,33.0,0 days 00:01:31.774000,kph,212.295,6,Miami,2024
+1,25.0,5,57,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5449876.0,0 days 01:30:49.876000,5.0,55.0,0 days 00:01:30.980000,kph,214.148,6,Miami,2024
+10,1.0,13,57,Finished,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5489622.0,0 days 00:00:39.746000,16.0,51.0,0 days 00:01:32.037000,kph,211.688,6,Miami,2024
+4,12.0,4,57,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5464526.0,0 days 00:00:14.650000,3.0,55.0,0 days 00:01:30.855000,kph,214.442,6,Miami,2024
+13,0.0,6,57,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5499632.0,0 days 00:00:49.756000,1.0,43.0,0 days 00:01:30.634000,kph,214.965,6,Miami,2024
+15,0.0,20,57,Finished,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5500832.0,0 days 00:00:50.956000,19.0,57.0,0 days 00:01:32.122000,kph,211.493,6,Miami,2024
+8,4.0,7,57,Finished,63,RUS,George,Russell,mercedes,Mercedes,5484665.0,0 days 00:00:34.789000,13.0,43.0,0 days 00:01:31.921000,kph,211.955,6,Miami,2024
+5,10.0,3,57,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5466283.0,0 days 00:00:16.407000,4.0,55.0,0 days 00:01:30.928000,kph,214.27,6,Miami,2024
+20,0.0,17,27,Retired,2,SAR,Logan,Sargeant,williams,Williams,,,20.0,15.0,0 days 00:01:33.452000,kph,208.483,6,Miami,2024
+17,0.0,11,57,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,5505049.0,0 days 00:00:55.173000,9.0,57.0,0 days 00:01:31.588000,kph,212.726,6,Miami,2024
+7,6.0,10,57,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5476061.0,0 days 00:00:26.185000,10.0,55.0,0 days 00:01:31.682000,kph,212.508,6,Miami,2024
+2,18.0,1,57,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5457488.0,0 days 00:00:07.612000,8.0,48.0,0 days 00:01:31.261000,kph,213.488,6,Miami,2024
+14,0.0,19,57,Finished,24,ZHO,Guanyu,Zhou,sauber,Sauber,5499855.0,0 days 00:00:49.979000,15.0,56.0,0 days 00:01:31.991000,kph,211.794,6,Miami,2024
+20,0.0,14,51,Retired,23,ALB,Alexander,Albon,williams,Williams,,,15.0,48.0,0 days 00:01:21.274000,kph,217.442,7,Emilia Romagna,2024
+19,0.0,20,62,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5200376.0,0 days 00:01:15.124000,2.0,62.0,0 days 00:01:19.004000,kph,223.689,7,Emilia Romagna,2024
+18,0.0,16,62,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5181595.0,0 days 00:00:56.343000,18.0,11.0,0 days 00:01:21.455000,kph,216.959,7,Emilia Romagna,2024
+16,0.0,15,62,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5174967.0,0 days 00:00:49.715000,17.0,10.0,0 days 00:01:21.371000,kph,217.183,7,Emilia Romagna,2024
+6,8.0,8,63,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5160356.0,0 days 00:00:35.104000,8.0,43.0,0 days 00:01:20.331000,kph,219.994,7,Emilia Romagna,2024
+11,0.0,10,62,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5150529.0,0 days 00:00:25.277000,20.0,3.0,0 days 00:01:21.700000,kph,216.308,7,Emilia Romagna,2024
+3,15.0,3,63,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5133168.0,0 days 00:00:07.916000,5.0,27.0,0 days 00:01:19.935000,kph,221.084,7,Emilia Romagna,2024
+12,0.0,18,62,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5151686.0,0 days 00:00:26.434000,12.0,58.0,0 days 00:01:21.009000,kph,218.153,7,Emilia Romagna,2024
+2,18.0,2,63,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5125977.0,0 days 00:00:00.725000,6.0,54.0,0 days 00:01:19.994000,kph,220.921,7,Emilia Romagna,2024
+14,0.0,12,62,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5169159.0,0 days 00:00:43.907000,16.0,37.0,0 days 00:01:21.304000,kph,217.361,7,Emilia Romagna,2024
+8,4.0,11,63,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5180028.0,0 days 00:00:54.776000,3.0,52.0,0 days 00:01:19.686000,kph,221.775,7,Emilia Romagna,2024
+4,12.0,5,63,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5139384.0,0 days 00:00:14.132000,4.0,25.0,0 days 00:01:19.907000,kph,221.162,7,Emilia Romagna,2024
+13,0.0,9,62,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5152913.0,0 days 00:00:27.661000,19.0,13.0,0 days 00:01:21.569000,kph,216.655,7,Emilia Romagna,2024
+7,7.0,6,63,Finished,63,RUS,George,Russell,mercedes,Mercedes,5172406.0,0 days 00:00:47.154000,1.0,54.0,0 days 00:01:18.589000,kph,224.871,7,Emilia Romagna,2024
+5,10.0,4,63,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5147577.0,0 days 00:00:22.325000,7.0,63.0,0 days 00:01:20.220000,kph,220.299,7,Emilia Romagna,2024
+17,0.0,19,62,Lapped,2,SAR,Logan,Sargeant,williams,Williams,5176303.0,0 days 00:00:51.051000,14.0,55.0,0 days 00:01:21.229000,kph,217.562,7,Emilia Romagna,2024
+9,2.0,13,63,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,5204808.0,0 days 00:01:19.556000,10.0,58.0,0 days 00:01:20.570000,kph,219.342,7,Emilia Romagna,2024
+10,1.0,7,62,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5143108.0,0 days 00:00:17.856000,11.0,14.0,0 days 00:01:20.936000,kph,218.35,7,Emilia Romagna,2024
+1,25.0,1,63,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5125252.0,0 days 01:25:25.252000,9.0,38.0,0 days 00:01:20.366000,kph,219.898,7,Emilia Romagna,2024
+15,0.0,17,62,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5170185.0,0 days 00:00:44.933000,13.0,37.0,0 days 00:01:21.016000,kph,218.134,7,Emilia Romagna,2024
+9,2.0,9,77,Lapped,23,ALB,Alexander,Albon,williams,Williams,8649606.0,0 days 00:00:54.052000,14.0,77.0,0 days 00:01:17.060000,,,8,Monaco,2024
+11,0.0,14,76,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,8599408.0,0 days 00:00:03.854000,16.0,68.0,0 days 00:01:17.939000,,,8,Monaco,2024
+13,0.0,17,76,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,8600042.0,0 days 00:00:04.488000,12.0,17.0,0 days 00:01:16.561000,,,8,Monaco,2024
+10,1.0,10,77,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,8655795.0,0 days 00:01:00.241000,9.0,77.0,0 days 00:01:15.625000,,,8,Monaco,2024
+7,7.0,7,78,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,8610462.0,0 days 00:00:14.908000,1.0,63.0,0 days 00:01:14.165000,,,8,Monaco,2024
+19,0.0,19,0,Retired,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,,,,,,,,8,Monaco,2024
+1,25.0,1,78,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,8595554.0,0 days 02:23:15.554000,6.0,71.0,0 days 00:01:15.162000,,,8,Monaco,2024
+20,0.0,20,0,Retired,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,,,,,,,,8,Monaco,2024
+4,12.0,4,78,Finished,1,NOR,Lando,Norris,mclaren,McLaren,8604204.0,0 days 00:00:08.650000,10.0,64.0,0 days 00:01:15.742000,,,8,Monaco,2024
+17,0.0,11,0,Retired,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,,,,,,,,8,Monaco,2024
+18,0.0,16,0,Retired,11,PER,Sergio,Pérez,red_bull,Red Bull,,,,,,,,8,Monaco,2024
+2,18.0,2,78,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,8602706.0,0 days 00:00:07.152000,11.0,73.0,0 days 00:01:16.281000,,,8,Monaco,2024
+12,0.0,12,76,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,8599818.0,0 days 00:00:04.264000,15.0,46.0,0 days 00:01:17.172000,,,8,Monaco,2024
+5,10.0,5,78,Finished,63,RUS,George,Russell,mercedes,Mercedes,8608863.0,0 days 00:00:13.309000,7.0,73.0,0 days 00:01:15.228000,,,8,Monaco,2024
+3,15.0,3,78,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,8603139.0,0 days 00:00:07.585000,5.0,62.0,0 days 00:01:14.726000,,,8,Monaco,2024
+15,0.0,15,76,Lapped,2,SAR,Logan,Sargeant,williams,Williams,8604580.0,0 days 00:00:09.026000,8.0,62.0,0 days 00:01:15.525000,,,8,Monaco,2024
+14,0.0,13,76,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,8601521.0,0 days 00:00:05.967000,13.0,59.0,0 days 00:01:16.710000,,,8,Monaco,2024
+8,4.0,8,77,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,8635041.0,0 days 00:00:39.487000,4.0,77.0,0 days 00:01:14.720000,,,8,Monaco,2024
+6,8.0,6,78,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,8609407.0,0 days 00:00:13.853000,2.0,58.0,0 days 00:01:14.569000,,,8,Monaco,2024
+16,0.0,18,76,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,8650814.0,0 days 00:00:55.260000,3.0,75.0,0 days 00:01:14.718000,,,8,Monaco,2024
+17,0.0,10,52,Retired,23,ALB,Alexander,Albon,williams,Williams,,,18.0,51.0,0 days 00:01:19.359000,kph,197.83,9,Canadian,2024
+6,8.0,6,70,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,6365437.0,0 days 00:00:17.510000,6.0,70.0,0 days 00:01:16.303000,kph,205.753,9,Canadian,2024
+13,0.0,19,70,Finished,77,BOT,Valtteri,Bottas,sauber,Sauber,6388414.0,0 days 00:00:40.487000,13.0,65.0,0 days 00:01:17.250000,kph,203.231,9,Canadian,2024
+9,2.0,15,70,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,6377948.0,0 days 00:00:30.021000,11.0,70.0,0 days 00:01:17.013000,kph,203.856,9,Canadian,2024
+4,13.0,7,70,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,6352842.0,0 days 00:00:04.915000,1.0,70.0,0 days 00:01:14.856000,kph,209.73,9,Canadian,2024
+11,0.0,17,70,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,6378751.0,0 days 00:00:30.824000,8.0,67.0,0 days 00:01:16.683000,kph,204.733,9,Canadian,2024
+19,0.0,11,40,Retired,16,LEC,Charles,Leclerc,ferrari,Ferrari,,,19.0,39.0,0 days 00:01:26.012000,kph,182.528,9,Canadian,2024
+12,0.0,14,70,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,6379180.0,0 days 00:00:31.253000,7.0,68.0,0 days 00:01:16.499000,kph,205.226,9,Canadian,2024
+2,18.0,3,70,Finished,1,NOR,Lando,Norris,mclaren,McLaren,6351806.0,0 days 00:00:03.879000,3.0,67.0,0 days 00:01:15.558000,kph,207.782,9,Canadian,2024
+10,1.0,18,70,Finished,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,6378240.0,0 days 00:00:30.313000,10.0,70.0,0 days 00:01:17.012000,kph,203.859,9,Canadian,2024
+18,0.0,16,51,Retired,11,PER,Sergio,Pérez,red_bull,Red Bull,,,16.0,51.0,0 days 00:01:18.819000,kph,199.185,9,Canadian,2024
+5,10.0,4,70,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,6358126.0,0 days 00:00:10.199000,5.0,65.0,0 days 00:01:16.247000,kph,205.904,9,Canadian,2024
+8,4.0,5,70,Finished,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,6376599.0,0 days 00:00:28.672000,12.0,68.0,0 days 00:01:17.076000,kph,203.689,9,Canadian,2024
+3,15.0,1,70,Finished,63,RUS,George,Russell,mercedes,Mercedes,6352244.0,0 days 00:00:04.317000,2.0,70.0,0 days 00:01:14.895000,kph,209.621,9,Canadian,2024
+16,0.0,12,52,Retired,55,SAI,Carlos,Sainz,ferrari,Ferrari,,,17.0,51.0,0 days 00:01:18.957000,kph,198.837,9,Canadian,2024
+20,0.0,13,23,Retired,2,SAR,Logan,Sargeant,williams,Williams,,,20.0,19.0,0 days 00:01:26.484000,kph,181.531,9,Canadian,2024
+7,6.0,9,70,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,6371552.0,0 days 00:00:23.625000,9.0,70.0,0 days 00:01:16.762000,kph,204.523,9,Canadian,2024
+14,0.0,8,70,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,6400621.0,0 days 00:00:52.694000,14.0,70.0,0 days 00:01:17.309000,kph,203.075,9,Canadian,2024
+1,25.0,2,70,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,6347927.0,0 days 01:45:47.927000,4.0,70.0,0 days 00:01:15.569000,kph,207.751,9,Canadian,2024
+15,0.0,20,69,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,6401455.0,0 days 00:00:53.528000,15.0,68.0,0 days 00:01:17.325000,kph,203.033,9,Canadian,2024
+18,0.0,20,65,Lapped,23,ALB,Alexander,Albon,williams,Williams,5358376.0,0 days 00:00:58.149000,14.0,45.0,0 days 00:01:19.132000,kph,211.863,10,Spanish,2024
+12,0.0,10,65,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5309724.0,0 days 00:00:09.497000,8.0,50.0,0 days 00:01:18.334000,kph,214.022,10,Spanish,2024
+16,0.0,12,65,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5353540.0,0 days 00:00:53.313000,18.0,13.0,0 days 00:01:19.608000,kph,210.596,10,Spanish,2024
+9,2.0,7,66,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5362252.0,0 days 00:01:02.025000,13.0,51.0,0 days 00:01:19.045000,kph,212.096,10,Spanish,2024
+3,15.0,3,66,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5318017.0,0 days 00:00:17.790000,4.0,46.0,0 days 00:01:17.809000,kph,215.466,10,Spanish,2024
+11,0.0,13,66,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5379442.0,0 days 00:01:19.215000,10.0,49.0,0 days 00:01:18.609000,kph,213.273,10,Spanish,2024
+5,10.0,5,66,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5322936.0,0 days 00:00:22.709000,6.0,52.0,0 days 00:01:17.897000,kph,215.222,10,Spanish,2024
+17,0.0,16,65,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5355015.0,0 days 00:00:54.788000,19.0,33.0,0 days 00:01:19.805000,kph,210.077,10,Spanish,2024
+2,19.0,1,66,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5302446.0,0 days 00:00:02.219000,1.0,51.0,0 days 00:01:17.115000,kph,217.405,10,Spanish,2024
+10,1.0,8,66,Finished,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5372116.0,0 days 00:01:11.889000,12.0,54.0,0 days 00:01:18.982000,kph,212.266,10,Spanish,2024
+8,4.0,11,66,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5359751.0,0 days 00:00:59.524000,3.0,51.0,0 days 00:01:17.785000,kph,215.532,10,Spanish,2024
+7,6.0,9,66,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5333987.0,0 days 00:00:33.760000,5.0,56.0,0 days 00:01:17.874000,kph,215.286,10,Spanish,2024
+15,0.0,18,65,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5344277.0,0 days 00:00:44.050000,17.0,61.0,0 days 00:01:19.450000,kph,211.015,10,Spanish,2024
+4,12.0,4,66,Finished,63,RUS,George,Russell,mercedes,Mercedes,5322547.0,0 days 00:00:22.320000,7.0,50.0,0 days 00:01:18.290000,kph,214.142,10,Spanish,2024
+6,8.0,6,66,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5331255.0,0 days 00:00:31.028000,9.0,39.0,0 days 00:01:18.539000,kph,213.463,10,Spanish,2024
+20,0.0,19,64,Lapped,2,SAR,Logan,Sargeant,williams,Williams,5305093.0,0 days 00:00:04.866000,20.0,38.0,0 days 00:01:20.172000,kph,209.115,10,Spanish,2024
+14,0.0,14,65,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,5325479.0,0 days 00:00:25.252000,15.0,50.0,0 days 00:01:19.318000,kph,211.366,10,Spanish,2024
+19,0.0,17,65,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5369131.0,0 days 00:01:08.904000,16.0,56.0,0 days 00:01:19.447000,kph,211.023,10,Spanish,2024
+1,25.0,2,66,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5300227.0,0 days 01:28:20.227000,2.0,54.0,0 days 00:01:17.776000,kph,215.557,10,Spanish,2024
+13,0.0,15,65,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5315703.0,0 days 00:00:15.476000,11.0,50.0,0 days 00:01:18.771000,kph,212.834,10,Spanish,2024
+15,0.0,16,70,Lapped,23,ALB,Alexander,Albon,williams,Williams,5078664.0,0 days 00:00:15.866000,16.0,41.0,0 days 00:01:10.364000,kph,220.919,11,Austrian,2024
+18,0.0,15,70,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5110458.0,0 days 00:00:47.660000,1.0,70.0,0 days 00:01:07.694000,kph,229.633,11,Austrian,2024
+16,0.0,18,70,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5082173.0,0 days 00:00:19.375000,19.0,48.0,0 days 00:01:10.449000,kph,220.653,11,Austrian,2024
+10,1.0,13,71,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5124564.0,0 days 00:01:01.766000,9.0,45.0,0 days 00:01:09.609000,kph,223.315,11,Austrian,2024
+4,12.0,5,71,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5085940.0,0 days 00:00:23.142000,7.0,61.0,0 days 00:01:09.562000,kph,223.466,11,Austrian,2024
+6,8.0,9,71,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5116886.0,0 days 00:00:54.088000,14.0,51.0,0 days 00:01:10.215000,kph,221.388,11,Austrian,2024
+11,0.0,6,71,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5129854.0,0 days 00:01:07.056000,8.0,55.0,0 days 00:01:09.584000,kph,223.396,11,Austrian,2024
+8,4.0,12,71,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5123153.0,0 days 00:01:00.355000,12.0,45.0,0 days 00:01:10.125000,kph,221.672,11,Austrian,2024
+20,0.0,2,64,Lapped,1,NOR,Lando,Norris,mclaren,McLaren,4596054.0,,3.0,53.0,0 days 00:01:08.016000,kph,228.546,11,Austrian,2024
+12,0.0,10,71,Finished,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5131123.0,0 days 00:01:08.325000,10.0,45.0,0 days 00:01:09.649000,kph,223.187,11,Austrian,2024
+7,6.0,8,71,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5117470.0,0 days 00:00:54.672000,11.0,56.0,0 days 00:01:09.694000,kph,223.043,11,Austrian,2024
+2,18.0,7,71,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5064704.0,0 days 00:00:01.906000,4.0,56.0,0 days 00:01:08.697000,kph,226.28,11,Austrian,2024
+9,2.0,11,71,Finished,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5123967.0,0 days 00:01:01.169000,18.0,49.0,0 days 00:01:10.426000,kph,220.725,11,Austrian,2024
+1,25.0,3,71,Finished,63,RUS,George,Russell,mercedes,Mercedes,5062798.0,0 days 01:24:22.798000,5.0,48.0,0 days 00:01:09.164000,kph,224.752,11,Austrian,2024
+3,15.0,4,71,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5067331.0,0 days 00:00:04.533000,6.0,56.0,0 days 00:01:09.282000,kph,224.369,11,Austrian,2024
+19,0.0,19,69,Lapped,2,SAR,Logan,Sargeant,williams,Williams,5069107.0,0 days 00:00:06.309000,17.0,60.0,0 days 00:01:10.406000,kph,220.788,11,Austrian,2024
+13,0.0,17,70,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,5073032.0,0 days 00:00:10.234000,13.0,54.0,0 days 00:01:10.143000,kph,221.615,11,Austrian,2024
+14,0.0,14,70,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5075943.0,0 days 00:00:13.145000,15.0,54.0,0 days 00:01:10.318000,kph,221.064,11,Austrian,2024
+5,10.0,1,71,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5100051.0,0 days 00:00:37.253000,2.0,68.0,0 days 00:01:07.719000,kph,229.548,11,Austrian,2024
+17,0.0,20,70,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5107680.0,0 days 00:00:44.882000,20.0,54.0,0 days 00:01:10.470000,kph,220.587,11,Austrian,2024
+9,2.0,9,52,Finished,23,ALB,Alexander,Albon,williams,Williams,5015446.0,0 days 00:01:08.387000,8.0,52.0,0 days 00:01:29.718000,kph,236.38,12,British,2024
+8,4.0,10,52,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5010636.0,0 days 00:01:03.577000,7.0,47.0,0 days 00:01:29.710000,kph,236.401,12,British,2024
+15,0.0,16,51,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,4988880.0,0 days 00:00:41.821000,18.0,44.0,0 days 00:01:31.277000,kph,232.343,12,British,2024
+20,0.0,19,0,Did not start,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,,,,,,,,12,British,2024
+1,25.0,2,52,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,4947059.0,0 days 01:22:27.059000,5.0,45.0,0 days 00:01:29.438000,kph,237.12,12,British,2024
+6,8.0,6,52,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5002781.0,0 days 00:00:55.722000,10.0,43.0,0 days 00:01:29.836000,kph,236.07,12,British,2024
+14,0.0,11,51,Lapped,16,LEC,Charles,Leclerc,ferrari,Ferrari,4987532.0,0 days 00:00:40.473000,9.0,43.0,0 days 00:01:29.748000,kph,236.301,12,British,2024
+12,0.0,17,52,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5037212.0,0 days 00:01:30.153000,13.0,42.0,0 days 00:01:30.093000,kph,235.396,12,British,2024
+3,15.0,3,52,Finished,1,NOR,Lando,Norris,mclaren,McLaren,4954606.0,0 days 00:00:07.547000,4.0,43.0,0 days 00:01:29.262000,kph,237.588,12,British,2024
+16,0.0,18,50,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,4957741.0,0 days 00:00:10.682000,16.0,46.0,0 days 00:01:30.875000,kph,233.371,12,British,2024
+17,0.0,20,50,Lapped,11,PER,Sergio,Pérez,red_bull,Red Bull,4965064.0,0 days 00:00:18.005000,6.0,50.0,0 days 00:01:29.707000,kph,236.409,12,British,2024
+4,12.0,5,52,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,4959488.0,0 days 00:00:12.429000,2.0,51.0,0 days 00:01:28.748000,kph,238.964,12,British,2024
+13,0.0,15,51,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,4956996.0,0 days 00:00:09.937000,15.0,47.0,0 days 00:01:30.735000,kph,233.731,12,British,2024
+19,0.0,1,33,Retired,63,RUS,George,Russell,mercedes,Mercedes,,,19.0,3.0,0 days 00:01:31.298000,kph,232.289,12,British,2024
+5,11.0,7,52,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,4994377.0,0 days 00:00:47.318000,1.0,52.0,0 days 00:01:28.293000,kph,240.195,12,British,2024
+11,0.0,12,52,Finished,2,SAR,Logan,Sargeant,williams,Williams,5036019.0,0 days 00:01:28.960000,12.0,42.0,0 days 00:01:29.972000,kph,235.713,12,British,2024
+7,6.0,8,52,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,5003628.0,0 days 00:00:56.569000,11.0,46.0,0 days 00:01:29.897000,kph,235.909,12,British,2024
+10,1.0,13,52,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5026362.0,0 days 00:01:19.303000,14.0,43.0,0 days 00:01:30.229000,kph,235.041,12,British,2024
+2,18.0,4,52,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,4948524.0,0 days 00:00:01.465000,3.0,48.0,0 days 00:01:28.952000,kph,238.416,12,British,2024
+18,0.0,14,50,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5001535.0,0 days 00:00:54.476000,17.0,43.0,0 days 00:01:31.014000,kph,233.014,12,British,2024
+14,0.0,13,69,Lapped,23,ALB,Alexander,Albon,williams,Williams,5918758.0,0 days 00:00:36.769000,20.0,31.0,0 days 00:01:23.930000,kph,187.913,13,Hungarian,2024
+11,0.0,7,70,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5964449.0,0 days 00:01:22.460000,14.0,52.0,0 days 00:01:23.063000,kph,189.875,13,Hungarian,2024
+16,0.0,12,69,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5927398.0,0 days 00:00:45.409000,13.0,52.0,0 days 00:01:22.792000,kph,190.496,13,Hungarian,2024
+20,0.0,20,33,Retired,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,,,15.0,31.0,0 days 00:01:23.340000,kph,189.244,13,Hungarian,2024
+3,15.0,5,70,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5896869.0,0 days 00:00:14.880000,9.0,54.0,0 days 00:01:22.153000,kph,191.978,13,Hungarian,2024
+13,0.0,11,69,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5915173.0,0 days 00:00:33.184000,16.0,54.0,0 days 00:01:23.461000,kph,188.969,13,Hungarian,2024
+4,12.0,6,70,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5901675.0,0 days 00:00:19.686000,10.0,29.0,0 days 00:01:22.182000,kph,191.91,13,Hungarian,2024
+15,0.0,15,69,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5927291.0,0 days 00:00:45.302000,19.0,50.0,0 days 00:01:23.553000,kph,188.761,13,Hungarian,2024
+2,18.0,1,70,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5884130.0,0 days 00:00:02.141000,7.0,50.0,0 days 00:01:21.712000,kph,193.014,13,Hungarian,2024
+18,0.0,19,69,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5942918.0,0 days 00:01:00.929000,6.0,66.0,0 days 00:01:21.610000,kph,193.255,13,Hungarian,2024
+7,6.0,16,70,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5921781.0,0 days 00:00:39.792000,4.0,49.0,0 days 00:01:21.096000,kph,194.48,13,Hungarian,2024
+1,25.0,2,70,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5881989.0,0 days 01:38:01.989000,8.0,51.0,0 days 00:01:21.716000,kph,193.005,13,Hungarian,2024
+12,0.0,9,69,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5899913.0,0 days 00:00:17.924000,12.0,30.0,0 days 00:01:22.640000,kph,190.847,13,Hungarian,2024
+8,5.0,17,70,Finished,63,RUS,George,Russell,mercedes,Mercedes,5924357.0,0 days 00:00:42.368000,1.0,55.0,0 days 00:01:20.305000,kph,196.396,13,Hungarian,2024
+6,8.0,4,70,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5905062.0,0 days 00:00:23.073000,5.0,53.0,0 days 00:01:21.441000,kph,193.656,13,Hungarian,2024
+17,0.0,14,69,Lapped,2,SAR,Logan,Sargeant,williams,Williams,5934580.0,0 days 00:00:52.591000,2.0,65.0,0 days 00:01:20.561000,kph,195.772,13,Hungarian,2024
+10,1.0,8,70,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,5959965.0,0 days 00:01:17.976000,11.0,48.0,0 days 00:01:22.338000,kph,191.547,13,Hungarian,2024
+9,2.0,10,70,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5959248.0,0 days 00:01:17.259000,18.0,57.0,0 days 00:01:23.533000,kph,188.806,13,Hungarian,2024
+5,10.0,3,70,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5903338.0,0 days 00:00:21.349000,3.0,51.0,0 days 00:01:20.908000,kph,194.932,13,Hungarian,2024
+19,0.0,18,69,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5945587.0,0 days 00:01:03.598000,17.0,38.0,0 days 00:01:23.487000,kph,188.91,13,Hungarian,2024
+12,0.0,10,44,Finished,23,ALB,Alexander,Albon,williams,Williams,4860691.0,0 days 00:01:03.125000,16.0,44.0,0 days 00:01:47.996000,kph,233.475,14,Belgian,2024
+8,4.0,8,44,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,4847003.0,0 days 00:00:49.437000,17.0,42.0,0 days 00:01:48.051000,kph,233.356,14,Belgian,2024
+15,0.0,14,44,Finished,77,BOT,Valtteri,Bottas,sauber,Sauber,4867678.0,0 days 00:01:10.112000,9.0,37.0,0 days 00:01:47.019000,kph,235.606,14,Belgian,2024
+13,0.0,12,44,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,4861405.0,0 days 00:01:03.839000,11.0,30.0,0 days 00:01:47.418000,kph,234.731,14,Belgian,2024
+1,25.0,3,44,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,4797566.0,0 days 01:19:57.566000,6.0,33.0,0 days 00:01:46.653000,kph,236.415,14,Belgian,2024
+18,0.0,16,44,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,4885873.0,0 days 00:01:28.307000,19.0,44.0,0 days 00:01:48.954000,kph,231.422,14,Belgian,2024
+3,15.0,1,44,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,4805589.0,0 days 00:00:08.023000,8.0,33.0,0 days 00:01:47.013000,kph,235.619,14,Belgian,2024
+14,0.0,17,44,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,4863671.0,0 days 00:01:06.105000,14.0,44.0,0 days 00:01:47.848000,kph,233.795,14,Belgian,2024
+5,10.0,4,44,Finished,1,NOR,Lando,Norris,mclaren,McLaren,4806890.0,0 days 00:00:09.324000,2.0,31.0,0 days 00:01:45.563000,kph,238.856,14,Belgian,2024
+9,2.0,9,44,Finished,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,4849592.0,0 days 00:00:52.026000,7.0,43.0,0 days 00:01:46.957000,kph,235.743,14,Belgian,2024
+7,7.0,2,44,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,4840235.0,0 days 00:00:42.669000,1.0,44.0,0 days 00:01:44.701000,kph,240.822,14,Belgian,2024
+2,18.0,5,44,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,4798213.0,0 days 00:00:00.647000,3.0,32.0,0 days 00:01:45.840000,kph,238.231,14,Belgian,2024
+10,1.0,13,44,Finished,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,4851966.0,0 days 00:00:54.400000,12.0,37.0,0 days 00:01:47.435000,kph,234.694,14,Belgian,2024
+20,0.0,6,44,Disqualified,63,RUS,George,Russell,mercedes,Mercedes,4797040.0,,10.0,44.0,0 days 00:01:47.113000,kph,235.399,14,Belgian,2024
+6,8.0,7,44,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,4816835.0,0 days 00:00:19.269000,5.0,44.0,0 days 00:01:46.364000,kph,237.057,14,Belgian,2024
+17,0.0,18,44,Finished,2,SAR,Logan,Sargeant,williams,Williams,4883097.0,0 days 00:01:25.531000,13.0,43.0,0 days 00:01:47.490000,kph,234.574,14,Belgian,2024
+11,0.0,15,44,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,4860051.0,0 days 00:01:02.485000,18.0,44.0,0 days 00:01:48.105000,kph,233.239,14,Belgian,2024
+16,0.0,20,44,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,4873777.0,0 days 00:01:16.211000,15.0,44.0,0 days 00:01:47.969000,kph,233.533,14,Belgian,2024
+4,12.0,11,44,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,4806266.0,0 days 00:00:08.700000,4.0,32.0,0 days 00:01:46.128000,kph,237.584,14,Belgian,2024
+19,0.0,19,5,Retired,24,ZHO,Guanyu,Zhou,sauber,Sauber,,,20.0,2.0,0 days 00:01:52.099000,kph,224.929,14,Belgian,2024
+14,0.0,19,71,Lapped,23,ALB,Alexander,Albon,williams,Williams,5486230.0,0 days 00:00:40.711000,6.0,71.0,0 days 00:01:14.434000,kph,205.986,15,Dutch,2024
+10,1.0,7,71,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5459052.0,0 days 00:00:13.533000,10.0,34.0,0 days 00:01:14.758000,kph,205.093,15,Dutch,2024
+19,0.0,16,70,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5448767.0,0 days 00:00:03.248000,20.0,45.0,0 days 00:01:15.822000,kph,202.215,15,Dutch,2024
+9,2.0,9,71,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5454123.0,0 days 00:00:08.604000,11.0,54.0,0 days 00:01:14.855000,kph,204.828,15,Dutch,2024
+8,4.0,14,72,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5495118.0,0 days 00:00:49.599000,2.0,62.0,0 days 00:01:13.878000,kph,207.536,15,Dutch,2024
+11,0.0,12,71,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5464733.0,0 days 00:00:19.214000,18.0,59.0,0 days 00:01:15.657000,kph,202.656,15,Dutch,2024
+3,15.0,6,72,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5470958.0,0 days 00:00:25.439000,7.0,62.0,0 days 00:01:14.585000,kph,205.569,15,Dutch,2024
+18,0.0,20,71,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5511226.0,0 days 00:01:05.707000,12.0,42.0,0 days 00:01:14.954000,kph,204.557,15,Dutch,2024
+1,26.0,1,72,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5445519.0,0 days 01:30:45.519000,1.0,72.0,0 days 00:01:13.817000,kph,207.708,15,Dutch,2024
+15,0.0,15,71,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5492397.0,0 days 00:00:46.878000,15.0,50.0,0 days 00:01:15.390000,kph,203.374,15,Dutch,2024
+6,8.0,5,72,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5485061.0,0 days 00:00:39.542000,8.0,69.0,0 days 00:01:14.587000,kph,205.563,15,Dutch,2024
+4,12.0,3,72,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5472856.0,0 days 00:00:27.337000,5.0,36.0,0 days 00:01:14.237000,kph,206.533,15,Dutch,2024
+12,0.0,13,71,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5466586.0,0 days 00:00:21.067000,13.0,52.0,0 days 00:01:15.222000,kph,203.828,15,Dutch,2024
+7,6.0,4,72,Finished,63,RUS,George,Russell,mercedes,Mercedes,5490136.0,0 days 00:00:44.617000,3.0,57.0,0 days 00:01:13.927000,kph,207.399,15,Dutch,2024
+5,10.0,10,72,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5477656.0,0 days 00:00:32.137000,4.0,40.0,0 days 00:01:14.117000,kph,206.867,15,Dutch,2024
+16,0.0,18,71,Lapped,2,SAR,Logan,Sargeant,williams,Williams,5510058.0,0 days 00:01:04.539000,16.0,26.0,0 days 00:01:15.539000,kph,202.973,15,Dutch,2024
+13,0.0,8,71,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,5471231.0,0 days 00:00:25.712000,14.0,51.0,0 days 00:01:15.255000,kph,203.739,15,Dutch,2024
+17,0.0,11,71,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5510665.0,0 days 00:01:05.146000,17.0,16.0,0 days 00:01:15.552000,kph,202.938,15,Dutch,2024
+2,18.0,2,72,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5468415.0,0 days 00:00:22.896000,9.0,30.0,0 days 00:01:14.752000,kph,205.11,15,Dutch,2024
+20,0.0,17,70,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5481538.0,0 days 00:00:36.019000,19.0,67.0,0 days 00:01:15.724000,kph,202.477,15,Dutch,2024
+9,2.0,9,53,Finished,23,ALB,Alexander,Albon,williams,Williams,4548183.0,0 days 00:01:07.456000,16.0,53.0,0 days 00:01:23.918000,kph,248.514,16,Italian,2024
+11,0.0,11,53,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,4549222.0,0 days 00:01:08.495000,7.0,46.0,0 days 00:01:22.944000,kph,251.432,16,Italian,2024
+16,0.0,19,52,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,4507938.0,0 days 00:00:27.211000,13.0,52.0,0 days 00:01:23.609000,kph,249.432,16,Italian,2024
+12,0.0,18,53,Finished,43,COL,Franco,Colapinto,williams,Williams,4562035.0,0 days 00:01:21.308000,14.0,53.0,0 days 00:01:23.728000,kph,249.077,16,Italian,2024
+15,0.0,14,52,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,4499071.0,0 days 00:00:18.344000,15.0,51.0,0 days 00:01:23.755000,kph,248.997,16,Italian,2024
+5,10.0,6,53,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,4503547.0,0 days 00:00:22.820000,2.0,53.0,0 days 00:01:21.512000,kph,255.849,16,Italian,2024
+17,0.0,10,52,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,4511597.0,0 days 00:00:30.870000,11.0,44.0,0 days 00:01:23.275000,kph,250.432,16,Italian,2024
+1,25.0,4,53,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,4480727.0,0 days 01:14:40.727000,10.0,33.0,0 days 00:01:23.226000,kph,250.58,16,Italian,2024
+10,1.0,13,53,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,4549029.0,0 days 00:01:08.302000,12.0,51.0,0 days 00:01:23.437000,kph,249.946,16,Italian,2024
+3,16.0,1,53,Finished,1,NOR,Lando,Norris,mclaren,McLaren,4486880.0,0 days 00:00:06.153000,1.0,53.0,0 days 00:01:21.432000,kph,256.1,16,Italian,2024
+14,0.0,15,52,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,4493386.0,0 days 00:00:12.659000,18.0,52.0,0 days 00:01:24.343000,kph,247.261,16,Italian,2024
+8,4.0,8,53,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,4534875.0,0 days 00:00:54.148000,8.0,47.0,0 days 00:01:22.971000,kph,251.35,16,Italian,2024
+2,18.0,2,53,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,4483391.0,0 days 00:00:02.664000,4.0,53.0,0 days 00:01:21.943000,kph,254.503,16,Italian,2024
+13,0.0,12,53,Finished,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,4574179.0,0 days 00:01:33.452000,17.0,52.0,0 days 00:01:24.219000,kph,247.625,16,Italian,2024
+7,6.0,3,53,Finished,63,RUS,George,Russell,mercedes,Mercedes,4520442.0,0 days 00:00:39.715000,5.0,49.0,0 days 00:01:22.036000,kph,254.215,16,Italian,2024
+4,12.0,5,53,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,4496348.0,0 days 00:00:15.621000,9.0,53.0,0 days 00:01:23.219000,kph,250.601,16,Italian,2024
+19,0.0,17,52,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,4524235.0,0 days 00:00:43.508000,6.0,52.0,0 days 00:01:22.232000,kph,253.609,16,Italian,2024
+20,0.0,16,7,Retired,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,,,20.0,4.0,0 days 00:01:26.198000,kph,241.94,16,Italian,2024
+6,8.0,7,53,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,4518659.0,0 days 00:00:37.932000,3.0,43.0,0 days 00:01:21.745000,kph,255.12,16,Italian,2024
+18,0.0,20,52,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,4520782.0,0 days 00:00:40.055000,19.0,17.0,0 days 00:01:25.092000,kph,245.085,16,Italian,2024
+7,6.0,9,51,Finished,23,ALB,Alexander,Albon,williams,Williams,5665403.0,0 days 00:01:27.396000,5.0,43.0,0 days 00:01:46.947000,kph,202.07,17,Azerbaijan,2024
+6,8.0,7,51,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5663475.0,0 days 00:01:25.468000,8.0,48.0,0 days 00:01:47.057000,kph,201.862,17,Azerbaijan,2024
+10,1.0,10,51,Finished,87,BEA,Oliver,Bearman,haas,Haas F1 Team,5671134.0,0 days 00:01:33.127000,7.0,47.0,0 days 00:01:47.048000,kph,201.879,17,Azerbaijan,2024
+16,0.0,16,50,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5603402.0,0 days 00:00:25.395000,18.0,41.0,0 days 00:01:48.418000,kph,199.328,17,Azerbaijan,2024
+8,4.0,8,51,Finished,43,COL,Franco,Colapinto,williams,Williams,5667548.0,0 days 00:01:29.541000,12.0,44.0,0 days 00:01:47.274000,kph,201.454,17,Azerbaijan,2024
+12,0.0,18,51,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5695196.0,0 days 00:01:57.189000,15.0,47.0,0 days 00:01:48.018000,kph,200.066,17,Azerbaijan,2024
+9,2.0,19,51,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5670408.0,0 days 00:01:32.401000,11.0,48.0,0 days 00:01:47.236000,kph,201.525,17,Azerbaijan,2024
+11,0.0,12,51,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5671472.0,0 days 00:01:33.465000,14.0,42.0,0 days 00:01:47.691000,kph,200.674,17,Azerbaijan,2024
+2,18.0,1,51,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5588917.0,0 days 00:00:10.910000,10.0,44.0,0 days 00:01:47.067000,kph,201.843,17,Azerbaijan,2024
+4,13.0,15,51,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5614150.0,0 days 00:00:36.143000,1.0,42.0,0 days 00:01:45.255000,kph,205.318,17,Azerbaijan,2024
+15,0.0,20,50,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5599351.0,0 days 00:00:21.344000,19.0,35.0,0 days 00:01:48.831000,kph,198.572,17,Azerbaijan,2024
+17,0.0,4,49,Retired,11,PER,Sergio,Pérez,red_bull,Red Bull,5321198.0,,6.0,46.0,0 days 00:01:47.013000,kph,201.945,17,Azerbaijan,2024
+1,25.0,2,51,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5578007.0,0 days 01:32:58.007000,9.0,47.0,0 days 00:01:47.060000,kph,201.856,17,Azerbaijan,2024
+13,0.0,14,51,Finished,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,5724914.0,0 days 00:02:26.907000,17.0,39.0,0 days 00:01:48.380000,kph,199.398,17,Azerbaijan,2024
+3,15.0,5,51,Finished,63,RUS,George,Russell,mercedes,Mercedes,5609335.0,0 days 00:00:31.328000,2.0,45.0,0 days 00:01:46.628000,kph,202.674,17,Azerbaijan,2024
+18,0.0,3,49,Retired,55,SAI,Carlos,Sainz,ferrari,Ferrari,5321768.0,,4.0,46.0,0 days 00:01:46.866000,kph,202.223,17,Azerbaijan,2024
+19,0.0,13,45,Retired,18,STR,Lance,Stroll,aston_martin,Aston Martin,5001080.0,,16.0,31.0,0 days 00:01:48.148000,kph,199.826,17,Azerbaijan,2024
+20,0.0,11,14,Retired,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,,,20.0,8.0,0 days 00:01:50.887000,kph,194.89,17,Azerbaijan,2024
+5,10.0,6,51,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5655105.0,0 days 00:01:17.098000,3.0,42.0,0 days 00:01:46.798000,kph,202.352,17,Azerbaijan,2024
+14,0.0,17,51,Finished,24,ZHO,Guanyu,Zhou,sauber,Sauber,5726848.0,0 days 00:02:28.841000,13.0,43.0,0 days 00:01:47.644000,kph,200.761,17,Azerbaijan,2024
+20,0.0,11,15,Retired,23,ALB,Alexander,Albon,williams,Williams,,,8.0,13.0,0 days 00:01:36.888000,kph,183.552,18,Singapore,2024
+8,4.0,7,61,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,6053444.0,0 days 00:00:00.873000,18.0,54.0,0 days 00:01:37.741000,kph,181.95,18,Singapore,2024
+16,0.0,19,61,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,6110400.0,0 days 00:00:57.829000,17.0,46.0,0 days 00:01:37.524000,kph,182.355,18,Singapore,2024
+11,0.0,12,61,Lapped,43,COL,Franco,Colapinto,williams,Williams,6058855.0,0 days 00:00:06.284000,11.0,35.0,0 days 00:01:37.262000,kph,182.846,18,Singapore,2024
+17,0.0,18,61,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,6111630.0,0 days 00:00:59.059000,9.0,46.0,0 days 00:01:36.927000,kph,183.478,18,Singapore,2024
+6,8.0,3,62,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,6137819.0,0 days 00:01:25.248000,12.0,43.0,0 days 00:01:37.393000,kph,182.6,18,Singapore,2024
+9,2.0,6,61,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,6055711.0,0 days 00:00:03.140000,15.0,35.0,0 days 00:01:37.470000,kph,182.456,18,Singapore,2024
+5,10.0,9,62,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,6115001.0,0 days 00:01:02.430000,3.0,46.0,0 days 00:01:35.371000,kph,186.471,18,Singapore,2024
+19,0.0,14,57,Retired,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5811906.0,,13.0,52.0,0 days 00:01:37.425000,kph,182.54,18,Singapore,2024
+1,25.0,1,62,Finished,1,NOR,Lando,Norris,mclaren,McLaren,6052571.0,0 days 01:40:52.571000,2.0,48.0,0 days 00:01:34.925000,kph,187.347,18,Singapore,2024
+13,0.0,15,61,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,6096576.0,0 days 00:00:44.005000,20.0,48.0,0 days 00:01:37.964000,kph,181.536,18,Singapore,2024
+10,1.0,13,61,Lapped,11,PER,Sergio,Pérez,red_bull,Red Bull,6057195.0,0 days 00:00:04.624000,16.0,33.0,0 days 00:01:37.477000,kph,182.443,18,Singapore,2024
+3,15.0,5,62,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,6094394.0,0 days 00:00:41.823000,4.0,48.0,0 days 00:01:35.745000,kph,185.743,18,Singapore,2024
+18,0.0,16,61,Lapped,3,RIC,Daniel,Ricciardo,rb,RB F1 Team,6142367.0,0 days 00:01:29.796000,1.0,60.0,0 days 00:01:34.486000,kph,188.218,18,Singapore,2024
+4,12.0,4,62,Finished,63,RUS,George,Russell,mercedes,Mercedes,6113611.0,0 days 00:01:01.040000,10.0,30.0,0 days 00:01:37.047000,kph,183.251,18,Singapore,2024
+7,6.0,10,62,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,6148610.0,0 days 00:01:36.039000,7.0,15.0,0 days 00:01:36.561000,kph,184.173,18,Singapore,2024
+14,0.0,17,61,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,6100142.0,0 days 00:00:47.571000,19.0,36.0,0 days 00:01:37.851000,kph,181.745,18,Singapore,2024
+12,0.0,8,61,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,6061363.0,0 days 00:00:08.792000,6.0,53.0,0 days 00:01:36.393000,kph,184.494,18,Singapore,2024
+2,18.0,2,62,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,6073516.0,0 days 00:00:20.945000,5.0,59.0,0 days 00:01:35.967000,kph,185.313,18,Singapore,2024
+15,0.0,20,61,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,6109791.0,0 days 00:00:57.220000,14.0,47.0,0 days 00:01:37.461000,kph,182.472,18,Singapore,2024
+16,0.0,14,55,Lapped,23,ALB,Alexander,Albon,williams,Williams,5727731.0,0 days 00:00:18.092000,14.0,54.0,0 days 00:01:39.084000,kph,200.302,19,United States,2024
+13,0.0,7,55,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5711365.0,0 days 00:00:01.726000,17.0,52.0,0 days 00:01:39.261000,kph,199.945,19,United States,2024
+17,0.0,16,55,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,5743972.0,0 days 00:00:34.333000,19.0,53.0,0 days 00:01:40.575000,kph,197.333,19,United States,2024
+10,1.0,15,56,Finished,43,COL,Franco,Colapinto,williams,Williams,5781618.0,0 days 00:01:11.979000,2.0,46.0,0 days 00:01:37.611000,kph,203.325,19,United States,2024
+12,0.0,6,56,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5800197.0,0 days 00:01:30.558000,11.0,55.0,0 days 00:01:38.311000,kph,201.877,19,United States,2024
+20,0.0,17,1,Retired,44,HAM,Lewis,Hamilton,mercedes,Mercedes,,,,,,,,19,United States,2024
+8,4.0,11,56,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5772596.0,0 days 00:01:02.957000,12.0,51.0,0 days 00:01:38.404000,kph,201.686,19,United States,2024
+9,2.0,19,56,Finished,30,LAW,Liam,Lawson,rb,RB F1 Team,5780202.0,0 days 00:01:10.563000,8.0,54.0,0 days 00:01:38.091000,kph,202.33,19,United States,2024
+1,25.0,4,56,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5709639.0,0 days 01:35:09.639000,6.0,39.0,0 days 00:01:37.834000,kph,202.861,19,United States,2024
+11,0.0,8,56,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5789421.0,0 days 00:01:19.782000,10.0,56.0,0 days 00:01:38.210000,kph,202.085,19,United States,2024
+4,12.0,1,56,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5729993.0,0 days 00:00:20.354000,4.0,55.0,0 days 00:01:37.679000,kph,203.183,19,United States,2024
+18,0.0,12,55,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,5751751.0,0 days 00:00:42.112000,1.0,53.0,0 days 00:01:37.330000,kph,203.912,19,United States,2024
+7,6.0,9,56,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,5768711.0,0 days 00:00:59.072000,13.0,45.0,0 days 00:01:38.514000,kph,201.461,19,United States,2024
+5,10.0,5,56,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5731560.0,0 days 00:00:21.921000,7.0,42.0,0 days 00:01:37.883000,kph,202.76,19,United States,2024
+6,8.0,20,56,Finished,63,RUS,George,Russell,mercedes,Mercedes,5765934.0,0 days 00:00:56.295000,3.0,42.0,0 days 00:01:37.656000,kph,203.231,19,United States,2024
+2,18.0,3,56,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5718201.0,0 days 00:00:08.562000,5.0,42.0,0 days 00:01:37.763000,kph,203.009,19,United States,2024
+15,0.0,13,55,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,5726622.0,0 days 00:00:16.983000,16.0,54.0,0 days 00:01:39.214000,kph,200.04,19,United States,2024
+14,0.0,10,55,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5717851.0,0 days 00:00:08.212000,15.0,54.0,0 days 00:01:39.193000,kph,200.082,19,United States,2024
+3,15.0,2,56,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5729051.0,0 days 00:00:19.412000,9.0,42.0,0 days 00:01:38.117000,kph,202.276,19,United States,2024
+19,0.0,18,55,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5758879.0,0 days 00:00:49.240000,18.0,53.0,0 days 00:01:39.272000,kph,199.923,19,United States,2024
+19,0.0,9,0,Retired,23,ALB,Alexander,Albon,williams,Williams,,,,,,,,20,Mexico City,2024
+18,0.0,13,15,Retired,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,,,18.0,7.0,0 days 00:01:22.722000,kph,187.306,20,Mexico City,2024
+14,0.0,15,70,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,6098027.0,0 days 00:00:42.227000,14.0,57.0,0 days 00:01:21.085000,kph,191.088,20,Mexico City,2024
+12,0.0,16,70,Lapped,43,COL,Franco,Colapinto,williams,Williams,6093297.0,0 days 00:00:37.497000,6.0,50.0,0 days 00:01:20.090000,kph,193.462,20,Mexico City,2024
+10,1.0,8,70,Lapped,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,6074387.0,0 days 00:00:18.587000,15.0,67.0,0 days 00:01:21.274000,kph,190.643,20,Mexico City,2024
+4,12.0,6,71,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,6100580.0,0 days 00:00:44.780000,8.0,31.0,0 days 00:01:20.371000,kph,192.785,20,Mexico City,2024
+9,2.0,10,70,Lapped,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,6058520.0,0 days 00:00:02.720000,12.0,69.0,0 days 00:01:20.748000,kph,191.885,20,Mexico City,2024
+16,0.0,12,70,Lapped,30,LAW,Liam,Lawson,rb,RB F1 Team,6120266.0,0 days 00:01:04.466000,3.0,67.0,0 days 00:01:19.502000,kph,194.893,20,Mexico City,2024
+3,16.0,4,71,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,6090187.0,0 days 00:00:34.387000,1.0,71.0,0 days 00:01:18.336000,kph,197.794,20,Mexico City,2024
+7,6.0,7,71,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,6119442.0,0 days 00:01:03.642000,9.0,61.0,0 days 00:01:20.637000,kph,192.15,20,Mexico City,2024
+2,18.0,3,71,Finished,1,NOR,Lando,Norris,mclaren,McLaren,6060505.0,0 days 00:00:04.705000,4.0,68.0,0 days 00:01:19.691000,kph,194.43,20,Mexico City,2024
+13,0.0,0,70,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,6095463.0,0 days 00:00:39.663000,10.0,70.0,0 days 00:01:20.659000,kph,192.097,20,Mexico City,2024
+17,0.0,18,70,Lapped,11,PER,Sergio,Pérez,red_bull,Red Bull,6129084.0,0 days 00:01:13.284000,2.0,70.0,0 days 00:01:19.209000,kph,195.614,20,Mexico City,2024
+8,4.0,17,71,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,6120728.0,0 days 00:01:04.928000,5.0,65.0,0 days 00:01:20.064000,kph,193.525,20,Mexico City,2024
+5,10.0,5,71,Finished,63,RUS,George,Russell,mercedes,Mercedes,6104336.0,0 days 00:00:48.536000,11.0,63.0,0 days 00:01:20.731000,kph,191.926,20,Mexico City,2024
+1,25.0,1,71,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,6055800.0,0 days 01:40:55.800000,7.0,62.0,0 days 00:01:20.137000,kph,193.348,20,Mexico City,2024
+11,0.0,14,70,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,6080872.0,0 days 00:00:25.072000,16.0,55.0,0 days 00:01:21.311000,kph,190.557,20,Mexico City,2024
+20,0.0,11,0,Retired,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,,,,,,,,20,Mexico City,2024
+6,8.0,2,71,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,6115358.0,0 days 00:00:59.558000,13.0,53.0,0 days 00:01:20.872000,kph,191.591,20,Mexico City,2024
+15,0.0,19,70,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,6117522.0,0 days 00:01:01.722000,17.0,56.0,0 days 00:01:21.553000,kph,189.991,20,Mexico City,2024
+18,0.0,7,0,Did not start,23,ALB,Alexander,Albon,williams,Williams,,,,,,,,21,São Paulo,2024
+14,0.0,9,69,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,7692479.0,0 days 00:01:18.049000,12.0,59.0,0 days 00:01:22.293000,kph,188.502,21,São Paulo,2024
+12,0.0,15,69,Finished,87,BEA,Oliver,Bearman,haas,Haas F1 Team,7671515.0,0 days 00:00:57.085000,13.0,64.0,0 days 00:01:22.494000,kph,188.042,21,São Paulo,2024
+13,0.0,11,69,Finished,77,BOT,Valtteri,Bottas,sauber,Sauber,7678018.0,0 days 00:01:03.588000,14.0,67.0,0 days 00:01:22.877000,kph,187.173,21,São Paulo,2024
+17,0.0,16,30,Retired,43,COL,Franco,Colapinto,williams,Williams,,,17.0,21.0,0 days 00:01:24.296000,kph,184.022,21,São Paulo,2024
+3,15.0,13,69,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,7636962.0,0 days 00:00:22.532000,5.0,66.0,0 days 00:01:21.645000,kph,189.998,21,São Paulo,2024
+10,1.0,14,69,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,7665183.0,0 days 00:00:50.753000,9.0,69.0,0 days 00:01:22.041000,kph,189.081,21,São Paulo,2024
+20,0.0,18,0,Disqualified,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,,,,,,,,21,São Paulo,2024
+9,2.0,5,69,Finished,30,LAW,Liam,Lawson,rb,RB F1 Team,7664882.0,0 days 00:00:50.452000,10.0,67.0,0 days 00:01:22.123000,kph,188.892,21,São Paulo,2024
+5,10.0,6,69,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,7644607.0,0 days 00:00:30.177000,4.0,60.0,0 days 00:01:21.631000,kph,190.03,21,São Paulo,2024
+6,8.0,1,69,Finished,1,NOR,Lando,Norris,mclaren,McLaren,7645802.0,0 days 00:00:31.372000,2.0,67.0,0 days 00:01:21.517000,kph,190.296,21,São Paulo,2024
+2,18.0,4,69,Finished,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,7633907.0,0 days 00:00:19.477000,7.0,64.0,0 days 00:01:21.771000,kph,189.705,21,São Paulo,2024
+11,0.0,12,69,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,7665961.0,0 days 00:00:51.531000,11.0,67.0,0 days 00:01:22.143000,kph,188.846,21,São Paulo,2024
+8,4.0,8,69,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,7659373.0,0 days 00:00:44.943000,3.0,69.0,0 days 00:01:21.532000,kph,190.261,21,São Paulo,2024
+4,12.0,2,69,Finished,63,RUS,George,Russell,mercedes,Mercedes,7637695.0,0 days 00:00:23.265000,6.0,66.0,0 days 00:01:21.645000,kph,189.998,21,São Paulo,2024
+16,0.0,20,38,Retired,55,SAI,Carlos,Sainz,ferrari,Ferrari,,,16.0,19.0,0 days 00:01:24.201000,kph,184.23,21,São Paulo,2024
+19,0.0,10,0,Did not start,18,STR,Lance,Stroll,aston_martin,Aston Martin,,,,,,,,21,São Paulo,2024
+7,6.0,3,69,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,7656486.0,0 days 00:00:42.056000,8.0,69.0,0 days 00:01:21.828000,kph,189.573,21,São Paulo,2024
+1,26.0,17,69,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,7614430.0,0 days 02:06:54.430000,1.0,67.0,0 days 00:01:20.472000,kph,192.767,21,São Paulo,2024
+15,0.0,19,69,Finished,24,ZHO,Guanyu,Zhou,sauber,Sauber,7694079.0,0 days 00:01:19.649000,15.0,65.0,0 days 00:01:23.058000,kph,186.765,21,São Paulo,2024
+19,0.0,17,25,Retired,23,ALB,Alexander,Albon,williams,Williams,,,19.0,21.0,0 days 00:01:38.008000,kph,227.773,22,Las Vegas,2024
+11,0.0,16,50,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,4995164.0,0 days 00:01:09.195000,10.0,39.0,0 days 00:01:36.553000,kph,231.205,22,Las Vegas,2024
+18,0.0,19,49,Lapped,77,BOT,Valtteri,Bottas,sauber,Sauber,4937254.0,0 days 00:00:11.285000,14.0,46.0,0 days 00:01:36.601000,kph,231.09,22,Las Vegas,2024
+14,0.0,20,50,Finished,43,COL,Franco,Colapinto,williams,Williams,5001141.0,0 days 00:01:15.172000,15.0,37.0,0 days 00:01:36.867000,kph,230.456,22,Las Vegas,2024
+20,0.0,3,15,Retired,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,,,20.0,13.0,0 days 00:01:38.314000,kph,227.064,22,Las Vegas,2024
+2,18.0,10,50,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,4933282.0,0 days 00:00:07.313000,2.0,41.0,0 days 00:01:35.480000,kph,233.803,22,Las Vegas,2024
+8,4.0,9,50,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,4985777.0,0 days 00:00:59.808000,12.0,48.0,0 days 00:01:36.585000,kph,231.129,22,Las Vegas,2024
+16,0.0,14,50,Finished,30,LAW,Liam,Lawson,rb,RB F1 Team,5016974.0,0 days 00:01:31.005000,17.0,45.0,0 days 00:01:36.980000,kph,230.187,22,Las Vegas,2024
+4,12.0,4,50,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,4940252.0,0 days 00:00:14.283000,3.0,40.0,0 days 00:01:35.674000,kph,233.329,22,Las Vegas,2024
+12,0.0,12,50,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,4995772.0,0 days 00:01:09.803000,11.0,49.0,0 days 00:01:36.557000,kph,231.196,22,Las Vegas,2024
+6,9.0,6,50,Finished,1,NOR,Lando,Norris,mclaren,McLaren,4969354.0,0 days 00:00:43.385000,1.0,50.0,0 days 00:01:34.876000,kph,235.292,22,Las Vegas,2024
+17,0.0,11,49,Lapped,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,4928029.0,0 days 00:00:02.060000,9.0,47.0,0 days 00:01:36.511000,kph,231.306,22,Las Vegas,2024
+10,1.0,15,50,Finished,11,PER,Sergio,Pérez,red_bull,Red Bull,4989083.0,0 days 00:01:03.114000,8.0,42.0,0 days 00:01:36.326000,kph,231.75,22,Las Vegas,2024
+7,6.0,8,50,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,4977334.0,0 days 00:00:51.365000,13.0,44.0,0 days 00:01:36.598000,kph,231.097,22,Las Vegas,2024
+1,25.0,1,50,Finished,63,RUS,George,Russell,mercedes,Mercedes,4925969.0,0 days 01:22:05.969000,4.0,46.0,0 days 00:01:35.717000,kph,233.225,22,Las Vegas,2024
+3,15.0,2,50,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,4937875.0,0 days 00:00:11.906000,5.0,44.0,0 days 00:01:35.875000,kph,232.84,22,Las Vegas,2024
+15,0.0,18,50,Finished,18,STR,Lance,Stroll,aston_martin,Aston Martin,5010071.0,0 days 00:01:24.102000,18.0,43.0,0 days 00:01:37.179000,kph,229.716,22,Las Vegas,2024
+9,2.0,7,50,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,4988777.0,0 days 00:01:02.808000,16.0,48.0,0 days 00:01:36.957000,kph,230.242,22,Las Vegas,2024
+5,10.0,5,50,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,4942551.0,0 days 00:00:16.582000,6.0,43.0,0 days 00:01:36.248000,kph,231.938,22,Las Vegas,2024
+13,0.0,13,50,Finished,24,ZHO,Guanyu,Zhou,sauber,Sauber,5000054.0,0 days 00:01:14.085000,7.0,46.0,0 days 00:01:36.324000,kph,231.755,22,Las Vegas,2024
+15,0.0,16,56,Lapped,23,ALB,Alexander,Albon,williams,Williams,5478292.0,0 days 00:00:12.969000,14.0,47.0,0 days 00:01:25.559000,kph,228.011,23,Qatar,2024
+7,6.0,8,57,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5485190.0,0 days 00:00:19.867000,7.0,57.0,0 days 00:01:23.667000,kph,233.167,23,Qatar,2024
+11,0.0,13,57,Finished,77,BOT,Valtteri,Bottas,sauber,Sauber,5515566.0,0 days 00:00:50.243000,13.0,53.0,0 days 00:01:25.533000,kph,228.08,23,Qatar,2024
+19,0.0,19,0,Retired,43,COL,Franco,Colapinto,williams,Williams,,,,,,,,23,Qatar,2024
+5,10.0,11,57,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5482105.0,0 days 00:00:16.782000,8.0,56.0,0 days 00:01:23.705000,kph,233.061,23,Qatar,2024
+12,0.0,6,57,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5521445.0,0 days 00:00:56.122000,9.0,52.0,0 days 00:01:23.865000,kph,232.616,23,Qatar,2024
+16,0.0,18,39,Retired,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,,,15.0,33.0,0 days 00:01:25.767000,kph,227.458,23,Qatar,2024
+14,0.0,17,57,Finished,30,LAW,Liam,Lawson,rb,RB F1 Team,5527979.0,0 days 00:01:02.656000,16.0,46.0,0 days 00:01:26.076000,kph,226.641,23,Qatar,2024
+2,18.0,5,57,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5471354.0,0 days 00:00:06.031000,4.0,53.0,0 days 00:01:23.242000,kph,234.357,23,Qatar,2024
+9,2.0,10,57,Finished,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5497500.0,0 days 00:00:32.177000,11.0,55.0,0 days 00:01:24.259000,kph,231.528,23,Qatar,2024
+10,2.0,3,57,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5501085.0,0 days 00:00:35.762000,1.0,56.0,0 days 00:01:22.384000,kph,236.798,23,Qatar,2024
+20,0.0,20,0,Retired,31,OCO,Esteban,Ocon,alpine,Alpine F1 Team,,,,,,,,23,Qatar,2024
+17,0.0,9,38,Retired,11,PER,Sergio,Pérez,red_bull,Red Bull,,,12.0,31.0,0 days 00:01:25.288000,kph,228.735,23,Qatar,2024
+3,15.0,4,57,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5472142.0,0 days 00:00:06.819000,3.0,51.0,0 days 00:01:23.218000,kph,234.425,23,Qatar,2024
+4,12.0,1,57,Finished,63,RUS,George,Russell,mercedes,Mercedes,5479427.0,0 days 00:00:14.104000,5.0,50.0,0 days 00:01:23.355000,kph,234.039,23,Qatar,2024
+6,8.0,7,57,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5482799.0,0 days 00:00:17.476000,6.0,52.0,0 days 00:01:23.465000,kph,233.731,23,Qatar,2024
+18,0.0,15,8,Retired,18,STR,Lance,Stroll,aston_martin,Aston Martin,,,18.0,6.0,0 days 00:01:30.935000,kph,214.531,23,Qatar,2024
+13,0.0,14,57,Finished,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5526423.0,0 days 00:01:01.100000,17.0,47.0,0 days 00:01:26.144000,kph,226.462,23,Qatar,2024
+1,25.0,2,57,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5465323.0,0 days 01:31:05.323000,2.0,55.0,0 days 00:01:22.905000,kph,235.31,23,Qatar,2024
+8,4.0,12,57,Finished,24,ZHO,Guanyu,Zhou,sauber,Sauber,5490683.0,0 days 00:00:25.360000,10.0,57.0,0 days 00:01:23.889000,kph,232.55,23,Qatar,2024
+11,0.0,18,57,Lapped,23,ALB,Alexander,Albon,williams,Williams,5204542.0,0 days 00:00:11.251000,18.0,46.0,0 days 00:01:29.438000,kph,212.567,24,Abu Dhabi,2024
+9,2.0,8,58,Finished,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5275664.0,0 days 00:01:22.373000,7.0,51.0,0 days 00:01:27.948000,kph,216.168,24,Abu Dhabi,2024
+18,0.0,9,30,Retired,77,BOT,Valtteri,Bottas,sauber,Sauber,,,19.0,14.0,0 days 00:01:29.482000,kph,212.462,24,Abu Dhabi,2024
+19,0.0,20,26,Retired,43,COL,Franco,Colapinto,williams,Williams,,,17.0,5.0,0 days 00:01:29.411000,kph,212.631,24,Abu Dhabi,2024
+15,0.0,17,57,Lapped,7,DOO,Jack,Doohan,alpine,Alpine F1 Team,5219846.0,0 days 00:00:26.555000,13.0,56.0,0 days 00:01:29.121000,kph,213.323,24,Abu Dhabi,2024
+7,6.0,5,58,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5265851.0,0 days 00:01:12.560000,16.0,30.0,0 days 00:01:29.251000,kph,213.012,24,Abu Dhabi,2024
+4,12.0,16,58,Finished,44,HAM,Lewis,Hamilton,mercedes,Mercedes,5229774.0,0 days 00:00:36.483000,2.0,44.0,0 days 00:01:27.278000,kph,217.828,24,Abu Dhabi,2024
+8,4.0,7,58,Finished,27,HUL,Nico,Hülkenberg,haas,Haas F1 Team,5268845.0,0 days 00:01:15.554000,14.0,17.0,0 days 00:01:29.152000,kph,213.249,24,Abu Dhabi,2024
+17,0.0,12,55,Retired,30,LAW,Liam,Lawson,rb,RB F1 Team,5076949.0,,12.0,52.0,0 days 00:01:28.751000,kph,214.212,24,Abu Dhabi,2024
+3,15.0,19,58,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5225219.0,0 days 00:00:31.928000,9.0,51.0,0 days 00:01:28.018000,kph,215.996,24,Abu Dhabi,2024
+16,0.0,14,57,Lapped,20,MAG,Kevin,Magnussen,haas,Haas F1 Team,5270888.0,0 days 00:01:17.597000,1.0,57.0,0 days 00:01:25.637000,kph,222.002,24,Abu Dhabi,2024
+1,25.0,1,58,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5193291.0,0 days 01:26:33.291000,3.0,52.0,0 days 00:01:27.438000,kph,217.429,24,Abu Dhabi,2024
+20,0.0,10,0,Retired,11,PER,Sergio,Pérez,red_bull,Red Bull,,,,,,,,24,Abu Dhabi,2024
+10,1.0,2,58,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5277112.0,0 days 00:01:23.821000,4.0,51.0,0 days 00:01:27.690000,kph,216.804,24,Abu Dhabi,2024
+5,10.0,6,58,Finished,63,RUS,George,Russell,mercedes,Mercedes,5230829.0,0 days 00:00:37.538000,10.0,56.0,0 days 00:01:28.195000,kph,215.563,24,Abu Dhabi,2024
+2,18.0,3,58,Finished,55,SAI,Carlos,Sainz,ferrari,Ferrari,5199123.0,0 days 00:00:05.832000,5.0,55.0,0 days 00:01:27.765000,kph,216.619,24,Abu Dhabi,2024
+14,0.0,13,57,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,5211764.0,0 days 00:00:18.473000,11.0,42.0,0 days 00:01:28.604000,kph,214.568,24,Abu Dhabi,2024
+12,0.0,11,57,Lapped,22,TSU,Yuki,Tsunoda,rb,RB F1 Team,5208029.0,0 days 00:00:14.738000,15.0,41.0,0 days 00:01:29.200000,kph,213.134,24,Abu Dhabi,2024
+6,8.0,4,58,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5243138.0,0 days 00:00:49.847000,6.0,56.0,0 days 00:01:27.765000,kph,216.619,24,Abu Dhabi,2024
+13,0.0,15,57,Lapped,24,ZHO,Guanyu,Zhou,sauber,Sauber,5210595.0,0 days 00:00:17.304000,8.0,56.0,0 days 00:01:27.982000,kph,216.085,24,Abu Dhabi,2024

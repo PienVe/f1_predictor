@@ -4,17 +4,19 @@
 ##we are create the first machine learning model to predict the race winner
 
 import pandas as pd
-from fastf1.ergast import Ergast
+from fastf1.ergast import Ergast 
 from pathlib import Path
+import time
 
 Path('ml_model/data').mkdir(parents=True, exist_ok=True)
 
 years = list(range(2024, 2025))
-years = [2024]  # For now, only get data for 2024. Add other years once the CSV files are available.
+years = [2025]  # For now, only get data for 2024. Add other years once the CSV files are available.
 
 for year in years:
     print(f"Getting data for {year}...", flush=True)
     ergast = Ergast()
+    time.sleep(2)  # Wait before making the API request
     race_schedule = ergast.get_race_schedule(year)
     race_results = []
 
@@ -28,6 +30,14 @@ for year in years:
         temp = response.content[0].copy()
         temp['round'] = round_number
         temp['race'] = race.removesuffix(' Grand Prix')
+        for col in ['position', 'points', 'grid', 'laps', 'status', 
+                    'driverNumber', 'driverCode', 'givenName', 'familyName', 
+                    'constructorId', 'constructorName', 'totalRaceTimeMillis', 
+                    'totalRaceTime', 'fastestLapRank', 'fastestLapNumber', 
+                    'fastestLapTime', 'fastestLapAvgSpeedUnits', 
+                    'fastestLapAvgSpeed']:
+            if col not in temp.columns:
+                temp[col] = None
         temp = temp[['position', 'points', 'grid', 'laps', 'status', 
                      'driverNumber', 'driverCode', 'givenName', 'familyName', 
                      'constructorId', 'constructorName', 'totalRaceTimeMillis', 

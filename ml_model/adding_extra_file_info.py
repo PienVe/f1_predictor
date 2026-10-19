@@ -9,7 +9,7 @@ from pathlib import Path
 data_folder = Path('ml_model/data')
 
 # Voeg andere jaren toe zodra de CSV-bestanden beschikbaar zijn
-years = [2022, 2023]
+years = [2022, 2023, 2024, 2025]
 
 yearly_results = []
 
