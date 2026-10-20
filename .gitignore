@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+Icon?
+._*
+
+# Python cache and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local secrets (keep example configuration files)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Downloaded qualifying cache
+/ml_model/data/qualifying_cache/
