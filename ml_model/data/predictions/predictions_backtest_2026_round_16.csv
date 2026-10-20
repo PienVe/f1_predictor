@@ -1,0 +1,23 @@
+year,round,race,driverCode,grid,position,predicted_score,predicted_position,baseline_position,signed_error,error
+2026,16,Bahrain Grand Prix in Malaysia,VER,1,1,2.1949461355065076,1,1,0,0
+2026,16,Bahrain Grand Prix in Malaysia,HAM,2,3,3.6845018053841607,2,2,-1,1
+2026,16,Bahrain Grand Prix in Malaysia,ANT,3,2,4.325877679882322,3,3,1,1
+2026,16,Bahrain Grand Prix in Malaysia,LEC,4,4,5.310663015905662,4,4,0,0
+2026,16,Bahrain Grand Prix in Malaysia,NOR,5,9,5.923804076341618,5,5,-4,4
+2026,16,Bahrain Grand Prix in Malaysia,RUS,7,20,6.052196074565273,6,7,-14,14
+2026,16,Bahrain Grand Prix in Malaysia,HAD,8,5,6.75992365980253,7,8,2,2
+2026,16,Bahrain Grand Prix in Malaysia,PIA,6,6,7.467126607640157,8,6,2,2
+2026,16,Bahrain Grand Prix in Malaysia,BOR,10,18,10.101584139172374,9,10,-9,9
+2026,16,Bahrain Grand Prix in Malaysia,LAW,11,7,11.885631995197793,10,11,3,3
+2026,16,Bahrain Grand Prix in Malaysia,HUL,15,11,12.264160035498278,11,15,0,0
+2026,16,Bahrain Grand Prix in Malaysia,GAS,9,16,12.875371183927294,12,9,-4,4
+2026,16,Bahrain Grand Prix in Malaysia,SAI,13,17,13.814197961509878,13,13,-4,4
+2026,16,Bahrain Grand Prix in Malaysia,ALO,12,8,14.177634630820375,14,12,6,6
+2026,16,Bahrain Grand Prix in Malaysia,STR,14,12,14.532474607836823,15,14,3,3
+2026,16,Bahrain Grand Prix in Malaysia,OCO,17,15,14.797058716910891,16,17,1,1
+2026,16,Bahrain Grand Prix in Malaysia,LIN,22,10,15.16908568718862,17,22,7,7
+2026,16,Bahrain Grand Prix in Malaysia,COL,21,13,15.58274587764603,18,21,5,5
+2026,16,Bahrain Grand Prix in Malaysia,BEA,16,14,15.748751344344221,19,16,5,5
+2026,16,Bahrain Grand Prix in Malaysia,ALB,18,21,16.155984793185247,20,18,-1,1
+2026,16,Bahrain Grand Prix in Malaysia,PER,20,19,16.161901026572597,21,20,2,2
+2026,16,Bahrain Grand Prix in Malaysia,BOT,19,22,17.446505244812514,22,19,0,0
