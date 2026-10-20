@@ -1,0 +1,48 @@
+{
+  "residual_races": 30,
+  "checked_races": 25,
+  "simulations": 10000,
+  "interval_coverage": 0.7911025145067698,
+  "exact_probability_bins": [
+    {
+      "probability_bin": "0%\u201310%",
+      "count": 235,
+      "mean_estimated_pct": 4.635191489361703,
+      "observed_exact_pct": 9.361702127659575
+    },
+    {
+      "probability_bin": "10%\u201320%",
+      "count": 191,
+      "mean_estimated_pct": 14.568219895287957,
+      "observed_exact_pct": 8.37696335078534
+    },
+    {
+      "probability_bin": "20%\u201330%",
+      "count": 47,
+      "mean_estimated_pct": 23.265319148936165,
+      "observed_exact_pct": 14.893617021276595
+    },
+    {
+      "probability_bin": "30%\u201350%",
+      "count": 28,
+      "mean_estimated_pct": 38.98571428571429,
+      "observed_exact_pct": 21.428571428571427
+    },
+    {
+      "probability_bin": "50%\u2013100%",
+      "count": 16,
+      "mean_estimated_pct": 62.66687500000001,
+      "observed_exact_pct": 62.5
+    }
+  ],
+  "method": "Whole-race residual bootstrap, interpolated by relative rank and scaled by field size minus one",
+  "historical_field_sizes": [
+    19,
+    20,
+    22
+  ],
+  "source_prediction": "/Users/pien/Desktop/f1_predictor/ml_model/data/predictions/prediction_2026_10.csv",
+  "calibrated_probabilities": false,
+  "sample_note": "Estimate based on 30 historical races, including different field sizes; probabilities have not been separately calibrated.",
+  "validation_min_prior_residual_races": 5
+}

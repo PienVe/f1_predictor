@@ -1,12 +1,12 @@
 from pathlib import Path
 
 import pandas as pd
-from sklearn.compose import ColumnTransformer
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.impute import SimpleImputer
-from sklearn.metrics import mean_absolute_error
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer #type: ignore
+from sklearn.ensemble import RandomForestRegressor #type: ignore
+from sklearn.impute import SimpleImputer #type: ignore
+from sklearn.metrics import mean_absolute_error #type: ignore
+from sklearn.pipeline import Pipeline #type: ignore
+from sklearn.preprocessing import OneHotEncoder #type: ignore
 
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
