@@ -92,6 +92,41 @@ all_results = all_results.sort_values(
     by=['year', 'round', 'driverCode']
 ).reset_index(drop=True)
 
+# Eén rij per team per race:
+# gemiddelde finishpositie van alle deelnemende teamcoureurs
+team_results = (
+    all_results
+    .groupby(
+        ['year', 'round', 'constructorId'],
+        as_index=False
+    )
+    .agg(team_avg_finish=('position', 'mean'))
+    .sort_values(['year', 'round', 'constructorId'])
+)
+
+# Gemiddelde teamprestatie over maximaal vijf eerdere races.
+# shift(1) sluit de huidige race volledig uit.
+team_results['team_avg_finish_last_5'] = (
+    team_results.groupby('constructorId')['team_avg_finish']
+    .transform(
+        lambda positions: (
+            positions.shift(1)
+            .rolling(window=5, min_periods=1)
+            .mean()
+        )
+    )
+)
+
+# Koppel hetzelfde historische teamgemiddelde aan beide coureurs
+all_results = all_results.merge(
+    team_results[
+        ['year', 'round', 'constructorId', 'team_avg_finish_last_5']
+    ],
+    on=['year', 'round', 'constructorId'],
+    how='left',
+    validate='many_to_one'
+)
+
 # Sla de tabel met de nieuwe kenmerken apart op
 all_results.to_csv(
     data_folder / 'race_results_with_features.csv',

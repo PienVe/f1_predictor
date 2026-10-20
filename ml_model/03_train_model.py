@@ -25,6 +25,7 @@ numeric_features = [
     "avg_finish_last_5",
     "previous_races_used",
     "finish_same_race_previous_year",
+    "team_avg_finish_last_5",
 ]
 
 categorical_features = [
@@ -184,3 +185,23 @@ print(
     .mean()
     .sort_values(ascending=False)
 )
+
+validation_results["signed_error"] = (
+    validation_results["predicted_position"]
+    - validation_results["position"]
+)
+
+driver_summary = (
+    validation_results.groupby("driverCode")
+    .agg(
+        races=("error", "size"),
+        mean_error=("error", "mean"),
+        mean_signed_error=("signed_error", "mean"),
+    )
+    .sort_values("mean_error", ascending=False)
+)
+
+print(driver_summary.round(2))
+
+print("Features:", features)
+print("Predicted column:", target)
