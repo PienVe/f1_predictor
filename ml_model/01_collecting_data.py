@@ -11,7 +11,7 @@ import time
 Path('ml_model/data').mkdir(parents=True, exist_ok=True)
 
 years = list(range(2024, 2025))
-years = [2025]  # For now, only get data for 2024. Add other years once the CSV files are available.
+years = [2026]  # For now, only get data for 2024. Add other years once the CSV files are available.
 
 for year in years:
     print(f"Getting data for {year}...", flush=True)
@@ -23,10 +23,21 @@ for year in years:
     for rnd, race in race_schedule['raceName'].items():
         print(f"Round {rnd + 1}: {race} getting information...", flush=True)
         round_number = rnd + 1
+        time.sleep(2)
+
         response = ergast.get_race_results(
             season=year,
             round=round_number
         )
+
+        if not response.content:
+            print(
+                f"Round {round_number}: {race} has no race results yet. Skipping.",
+                "The previously collected races will be saved.",
+                flush=True
+            )
+            break
+
         temp = response.content[0].copy()
         temp['round'] = round_number
         temp['race'] = race.removesuffix(' Grand Prix')
