@@ -6,7 +6,7 @@
 import pandas as pd
 from pathlib import Path
 
-data_folder = Path('ml_model/data')
+data_folder = Path('data')
 
 # Voeg andere jaren toe zodra de CSV-bestanden beschikbaar zijn
 years = [2022, 2023, 2024, 2025, 2026]
@@ -125,6 +125,170 @@ all_results = all_results.merge(
     on=['year', 'round', 'constructorId'],
     how='left',
     validate='many_to_one'
+)
+
+
+print(
+    all_results['status']
+    .fillna('ONBEKEND')
+    .value_counts(dropna=False)
+    .to_string()
+)
+
+# Maak de tekst consistent
+status = (
+    all_results['status']
+    .astype('string')
+    .str.strip()
+)
+
+# Vul deze lijsten aan op basis van je eigen statusoverzicht
+technical_statuses = {
+    'Engine',
+    'Gearbox',
+    'Transmission',
+    'Clutch',
+    'Hydraulics',
+    'Electrical',
+    'Suspension',
+    'Brakes',
+    'Differential',
+    'Overheating',
+    'Mechanical',
+    'Power Unit',
+    'Turbo',
+    'Fuel pressure',
+    'Water leak',
+    'Water pressure',
+    'Water pump',
+    'Cooling system',
+    'Fuel leak',
+    'Front wing',
+    'Power loss',
+    'Vibrations',
+    'Fuel pump',
+    'Oil leak',
+    'Undertray'
+
+}
+
+incident_statuses = {
+    'Accident',
+    'Collision',
+    'Collision damage',
+    'Spun off',
+    'Disqualified',
+    'Retired',
+}
+
+non_start_statuses = {
+    'Did not start',
+    'Did not qualify',
+    'Did not prequalify',
+    'Withdrew',
+}
+
+all_results['status_category'] = 'unknown'
+
+# Ook "+1 Lap" en "+2 Laps" betekenen dat een coureur finishte,
+# maar met een rondeachterstand.
+finished = (
+    status.eq('Finished')
+    | status.str.fullmatch(r'\+\d+ Laps?', na=False)
+    | status.str.fullmatch(r'Lapped', na=False)
+)
+
+all_results.loc[
+    finished.fillna(False), 'status_category'
+] = 'finished'
+
+all_results.loc[
+    status.isin(technical_statuses), 'status_category'
+] = 'technical'
+
+all_results.loc[
+    status.isin(incident_statuses), 'status_category'
+] = 'incident'
+
+all_results.loc[
+    status.isin(non_start_statuses), 'status_category'
+] = 'not_started'
+
+# Voorbeeldgewichten, geen vaststaande juiste waarden
+weights = {
+    'finished': 1.0,
+    'technical': 0.2,
+    'incident': 0.5,
+    'not_started': 0.0,
+    'unknown': 0.5,
+}
+
+all_results['result_weight'] = (
+    all_results['status_category'].map(weights)
+)
+
+# Bekijk welke statussen je nog moet indelen
+print("\nNog te beoordelen statussen:")
+print(
+    all_results.loc[
+        all_results['status_category'] == 'unknown',
+        'status'
+    ]
+    .value_counts(dropna=False)
+    .to_string()
+)
+
+# Zorg dat de resultaten chronologisch staan
+all_results = all_results.sort_values(
+    ['year', 'round', 'driverCode']
+).reset_index(drop=True)
+
+# Een ontbrekende finishpositie mag niet bijdragen aan het gemiddelde
+all_results['usable_weight'] = (
+    all_results['result_weight']
+    .where(all_results['position'].notna(), 0.0)
+)
+
+all_results['weighted_position'] = (
+    all_results['position'].fillna(0)
+    * all_results['usable_weight']
+)
+
+# Teller: som van finishpositie × gewicht in de vorige vijf races
+weighted_sum = (
+    all_results.groupby('driverCode')['weighted_position']
+    .transform(
+        lambda values: (
+            values.shift(1)
+            .rolling(window=5, min_periods=1)
+            .sum()
+        )
+    )
+)
+
+# Noemer: som van de gewichten van diezelfde eerdere races
+weight_sum = (
+    all_results.groupby('driverCode')['usable_weight']
+    .transform(
+        lambda values: (
+            values.shift(1)
+            .rolling(window=5, min_periods=1)
+            .sum()
+        )
+    )
+)
+
+# Bij geen bruikbare historie blijft het gemiddelde NaN
+all_results['weighted_avg_finish_last_5'] = (
+    weighted_sum / weight_sum.where(weight_sum > 0)
+)
+
+# Bewaar hoeveel totaalgewicht achter het gemiddelde zit
+all_results['finish_weight_last_5'] = weight_sum
+
+# Verwijder tijdelijke hulpkolommen
+all_results = all_results.drop(
+    columns=['usable_weight', 'weighted_position']
 )
 
 # Sla de tabel met de nieuwe kenmerken apart op
