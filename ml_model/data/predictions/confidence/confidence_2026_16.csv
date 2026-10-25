@@ -1,0 +1,23 @@
+driverCode,predicted_position,exact_position_pct,position_low_80,position_high_80,within_2_positions_pct,year,round,race
+VER,1,56.34,1,4,89.62,2026,16,Bahrain Grand Prix in Malaysia
+HAM,2,19.830000000000002,1,19,62.9,2026,16,Bahrain Grand Prix in Malaysia
+ANT,3,10.32,1,17,66.33,2026,16,Bahrain Grand Prix in Malaysia
+LEC,4,13.669999999999998,2,18,67.97999999999999,2026,16,Bahrain Grand Prix in Malaysia
+NOR,5,30.3,3,16,73.29,2026,16,Bahrain Grand Prix in Malaysia
+RUS,6,9.85,2,20,62.38,2026,16,Bahrain Grand Prix in Malaysia
+HAD,7,13.29,2,13,50.14999999999999,2026,16,Bahrain Grand Prix in Malaysia
+PIA,8,16.89,3,12,56.43,2026,16,Bahrain Grand Prix in Malaysia
+BOR,9,7.02,6,16,48.16,2026,16,Bahrain Grand Prix in Malaysia
+LAW,10,3.4299999999999997,6,20,40.21,2026,16,Bahrain Grand Prix in Malaysia
+HUL,11,10.32,7,16,43.88,2026,16,Bahrain Grand Prix in Malaysia
+GAS,12,3.1300000000000003,8,20,40.22,2026,16,Bahrain Grand Prix in Malaysia
+SAI,13,6.36,8,22,36.67,2026,16,Bahrain Grand Prix in Malaysia
+ALO,14,0.0,8,19,20.26,2026,16,Bahrain Grand Prix in Malaysia
+STR,15,7.03,8,20,34.27,2026,16,Bahrain Grand Prix in Malaysia
+OCO,16,10.39,10,19,39.33,2026,16,Bahrain Grand Prix in Malaysia
+LIN,17,6.72,11,21,36.78,2026,16,Bahrain Grand Prix in Malaysia
+COL,18,6.99,11,22,51.129999999999995,2026,16,Bahrain Grand Prix in Malaysia
+BEA,19,9.86,11,20,50.080000000000005,2026,16,Bahrain Grand Prix in Malaysia
+ALB,20,3.4299999999999997,11,21,57.440000000000005,2026,16,Bahrain Grand Prix in Malaysia
+PER,21,13.19,10,21,33.45,2026,16,Bahrain Grand Prix in Malaysia
+BOT,22,10.17,11,22,26.090000000000003,2026,16,Bahrain Grand Prix in Malaysia

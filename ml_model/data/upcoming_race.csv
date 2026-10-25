@@ -1,23 +1,23 @@
 year,round,race,driverCode,constructorId,grid
-2026,17,Singapore,VER,red_bull,1
-2026,17,Singapore,LEC,ferrari,2
-2026,17,Singapore,HAM,ferrari,3
-2026,17,Singapore,ANT,mercedes,4
-2026,17,Singapore,NOR,mclaren,5
-2026,17,Singapore,PIA,mclaren,6
-2026,17,Singapore,GAS,alpine,7
-2026,17,Singapore,LAW,rb,8
-2026,17,Singapore,LIN,rb,9
-2026,17,Singapore,HUL,audi,10
-2026,17,Singapore,BEA,haas,11
-2026,17,Singapore,OCO,haas,12
-2026,17,Singapore,SAI,williams,13
-2026,17,Singapore,BOR,audi,14
-2026,17,Singapore,COL,alpine,15
-2026,17,Singapore,ALB,williams,16
-2026,17,Singapore,PER,cadillac,17
-2026,17,Singapore,BOT,cadillac,18
-2026,17,Singapore,RUS,mercedes,19
-2026,17,Singapore,ALO,aston_martin,20
-2026,17,Singapore,STR,aston_martin,21
-2026,17,Singapore,HAD,red_bull,22
+2026,18,United States,ANT,mercedes,1
+2026,18,United States,VER,red_bull,2
+2026,18,United States,HAD,red_bull,3
+2026,18,United States,LEC,ferrari,4
+2026,18,United States,HAM,ferrari,5
+2026,18,United States,RUS,mercedes,6
+2026,18,United States,PIA,mclaren,7
+2026,18,United States,NOR,mclaren,8
+2026,18,United States,LAW,rb,9
+2026,18,United States,GAS,alpine,10
+2026,18,United States,HUL,audi,11
+2026,18,United States,ALO,aston_martin,12
+2026,18,United States,BEA,haas,13
+2026,18,United States,LIN,rb,14
+2026,18,United States,OCO,haas,15
+2026,18,United States,STR,aston_martin,16
+2026,18,United States,SAI,williams,17
+2026,18,United States,ALB,williams,18
+2026,18,United States,PER,cadillac,19
+2026,18,United States,BOT,cadillac,20
+2026,18,United States,COL,alpine,21
+2026,18,United States,BOR,audi,22

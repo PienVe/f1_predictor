@@ -88,7 +88,7 @@ def main():
         # Inclusief de laatste afgeronde race.
         recent = driver_history.tail(5)
 
-        upcoming.loc[index, "avg_finish_last_5"] = (
+        upcoming.loc[index, "weighted_avg_finish_last_5"] = (
             recent["position"].mean()
         )
         upcoming.loc[index, "previous_races_used"] = len(recent)

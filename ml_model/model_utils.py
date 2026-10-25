@@ -13,7 +13,7 @@ DATA_DIR = Path(__file__).resolve().parent / "data"
 
 NUMERIC_FEATURES = [
     "grid",
-    "avg_finish_last_5",
+    "weighted_avg_finish_last_5",
     "previous_races_used",
     "finish_same_race_previous_year",
     "team_avg_finish_last_5",

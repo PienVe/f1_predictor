@@ -1,0 +1,23 @@
+year,round,race,driverCode,constructorId,grid,avg_finish_last_5,previous_races_used,finish_same_race_previous_year,team_avg_finish_last_5,original_grid,special_start,predicted_score,predicted_position
+2026,16,Bahrain Grand Prix in Malaysia,VER,red_bull,1,6.2,5.0,,6.7,1,0,2.194946135506507,1
+2026,16,Bahrain Grand Prix in Malaysia,HAM,ferrari,2,8.6,5.0,,8.2,2,0,3.684501805384161,2
+2026,16,Bahrain Grand Prix in Malaysia,ANT,mercedes,3,2.4,5.0,,3.0,3,0,4.325877679882323,3
+2026,16,Bahrain Grand Prix in Malaysia,LEC,ferrari,4,7.8,5.0,,8.2,4,0,5.3106630159056625,4
+2026,16,Bahrain Grand Prix in Malaysia,NOR,mclaren,5,5.6,5.0,,8.0,5,0,5.923804076341619,5
+2026,16,Bahrain Grand Prix in Malaysia,RUS,mercedes,7,3.6,5.0,,3.0,7,0,6.052196074565273,6
+2026,16,Bahrain Grand Prix in Malaysia,HAD,red_bull,8,5.2,5.0,,6.7,8,0,6.75992365980253,7
+2026,16,Bahrain Grand Prix in Malaysia,PIA,mclaren,6,10.4,5.0,,8.0,6,0,7.4671266076401555,8
+2026,16,Bahrain Grand Prix in Malaysia,BOR,audi,10,12.6,5.0,,11.3,10,0,10.101584139172376,9
+2026,16,Bahrain Grand Prix in Malaysia,LAW,rb,11,9.4,5.0,,10.1,11,0,11.885631995197793,10
+2026,16,Bahrain Grand Prix in Malaysia,HUL,audi,15,10.0,5.0,,11.3,15,0,12.264160035498275,11
+2026,16,Bahrain Grand Prix in Malaysia,GAS,alpine,9,11.8,5.0,,12.1,9,0,12.875371183927294,12
+2026,16,Bahrain Grand Prix in Malaysia,SAI,williams,13,15.2,5.0,,16.2,13,0,13.814197961509882,13
+2026,16,Bahrain Grand Prix in Malaysia,ALO,aston_martin,12,16.4,5.0,,17.8,12,0,14.177634630820378,14
+2026,16,Bahrain Grand Prix in Malaysia,STR,aston_martin,14,19.2,5.0,,17.8,14,0,14.532474607836823,15
+2026,16,Bahrain Grand Prix in Malaysia,OCO,haas,17,14.0,5.0,,15.0,17,0,14.797058716910893,16
+2026,16,Bahrain Grand Prix in Malaysia,LIN,rb,22,9.2,5.0,,10.1,22,0,15.16908568718862,17
+2026,16,Bahrain Grand Prix in Malaysia,COL,alpine,21,12.4,5.0,,12.1,21,0,15.58274587764603,18
+2026,16,Bahrain Grand Prix in Malaysia,BEA,haas,16,16.0,5.0,,15.0,16,0,15.74875134434422,19
+2026,16,Bahrain Grand Prix in Malaysia,ALB,williams,18,17.2,5.0,,16.2,18,0,16.155984793185247,20
+2026,16,Bahrain Grand Prix in Malaysia,PER,cadillac,20,17.6,5.0,,18.1,20,0,16.161901026572597,21
+2026,16,Bahrain Grand Prix in Malaysia,BOT,cadillac,19,18.6,5.0,,18.1,19,0,17.446505244812524,22
