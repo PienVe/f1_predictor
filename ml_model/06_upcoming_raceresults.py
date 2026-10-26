@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.inspection import permutation_importance
 
 from model_utils import (
     DATA_DIR,
@@ -139,6 +141,27 @@ def main():
     )
     model.fit(history[FEATURES], history[TARGET])
 
+    #Namen na de verwerking, inclusief de losse categorieën
+    feature_names = (
+        model.named_steps["preprocessor"]
+        .get_feature_names_out()
+    )
+
+    importances = pd.DataFrame({
+        "feature": feature_names,
+        "importance": (
+            model.named_steps["regressor"].feature_importances_
+        ),
+    })
+
+    importances = importances.sort_values(
+        "importance",
+        ascending=False,
+    )
+
+    print("\nBelangrijkste kenmerken in het Random Forest:")
+    print(importances.head(25).to_string(index=False))
+
     upcoming["predicted_score"] = model.predict(
         upcoming[FEATURES]
     )
@@ -173,6 +196,74 @@ def main():
     upcoming.to_csv(output_file, index=False)
 
     print(f"Opgeslagen: {output_file}")
+
+    # Gebruik races waarop het model NIET is getraind
+    importance = permutation_importance(
+        model,
+        history[FEATURES],
+        history[TARGET],
+        scoring="neg_mean_absolute_error",
+        n_repeats=20,
+        random_state=42,
+        n_jobs=-1,
+    )
+
+    importance_df = pd.DataFrame({
+        "feature": FEATURES,
+        "importance": importance.importances_mean,
+        "variation": importance.importances_std,
+    }).sort_values("importance", ascending=True)
+
+    # Optioneel: duidelijkere namen in de figuur
+    labels = {
+        "grid": "Startpositie",
+        "avg_finish_last_5": "Gem. finish vorige 5 races",
+        "weighted_avg_finish_last_5": "Gewogen gem. finish vorige 5 races",
+        "previous_races_used": "Aantal eerdere races gebruikt",
+        "finish_same_race_previous_year": "Finish bij deze GP vorig jaar",
+        "team_avg_finish_last_5": "Gem. teamfinish vorige 5 races",
+        "special_start": "Bijzondere start / pitstraat",
+        "driverCode": "Coureur",
+        "constructorId": "Team",
+        "race": "Grand Prix",
+    }
+
+    importance_df["label"] = (
+        importance_df["feature"]
+        .map(labels)
+        .fillna(importance_df["feature"])
+    )
+
+    fig, ax = plt.subplots(figsize=(11, 6))
+
+    ax.barh(
+        importance_df["label"],
+        importance_df["importance"],
+        color="#24699B",
+    )
+
+    ax.axvline(0, color="black", linewidth=0.8)
+
+    ax.set_title("Invloed van kenmerken op het F1-model", loc="left")
+    ax.set_xlabel(
+        "Toename in gemiddelde fout na door elkaar husselen\n"
+        "(finishplaatsen; hoger = belangrijker)"
+    )
+
+    ax.set_axisbelow(True)
+    ax.grid(axis="x", alpha=0.25)
+
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+
+    fig.tight_layout()
+
+    output = DATA_DIR / "feature_importance.png"
+    fig.savefig(output, dpi=200, bbox_inches="tight")
+
+    print(f"Figuur opgeslagen: {output}")
+
+    plt.show()
 
 
 if __name__ == "__main__":
