@@ -8,7 +8,7 @@ from fastf1.ergast import Ergast
 from pathlib import Path
 import time
 
-Path('ml_model/data').mkdir(parents=True, exist_ok=True)
+Path('data').mkdir(parents=True, exist_ok=True)
 
 years = list(range(2024, 2025))
 years = [2026]  # For now, only get data for 2024. Add other years once the CSV files are available.
@@ -69,6 +69,6 @@ for year in years:
     )
 
     sorted_results_df.to_csv(
-        f'ml_model/data/race_results_{year}.csv',
+        f'data/race_results_{year}.csv',
         index=False
     )

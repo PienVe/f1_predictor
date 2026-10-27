@@ -2211,3 +2211,25 @@ position,points,grid,laps,status,driverNumber,driverCode,givenName,familyName,co
 14,0.0,13,61,Lapped,55,SAI,Carlos,Sainz,williams,Williams,6178924.0,0 days 00:00:58.139000,17.0,41.0,0 days 00:01:38.326000,,,17,Singapore,2026,15.0,5,10.0,16.5,finished,1.0,14.555555555555555,4.5
 20,0.0,21,36,Retired,18,STR,Lance,Stroll,aston_martin,Aston Martin,,,19.0,28.0,0 days 00:01:39.137000,,,17,Singapore,2026,19.0,5,13.0,17.1,incident,0.5,17.833333333333332,3.0
 1,25.0,1,62,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,6120785.0,0 days 01:42:00.785000,5.0,44.0,0 days 00:01:36.201000,,,17,Singapore,2026,6.0,5,2.0,6.5,finished,1.0,4.222222222222222,4.5
+17,0.0,17,55,Lapped,23,ALB,Alexander,Albon,williams,Williams,5778826.0,0 days 00:01:02.176000,18.0,33.0,0 days 00:01:41.132000,,,18,United States,2026,18.2,5,14.0,16.4,finished,1.0,17.571428571428573,3.5
+16,0.0,12,55,Lapped,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,5777318.0,0 days 00:01:00.668000,10.0,53.0,0 days 00:01:39.841000,,,18,United States,2026,16.6,5,10.0,17.8,finished,1.0,15.5,4.0
+1,25.0,1,56,Finished,12,ANT,Andrea Kimi,Antonelli,mercedes,Mercedes,5716650.0,0 days 01:35:16.650000,4.0,55.0,0 days 00:01:39.086000,,,18,United States,2026,2.4,5,13.0,4.9,finished,1.0,2.4,5.0
+22,0.0,13,24,Retired,87,BEA,Oliver,Bearman,haas,Haas F1 Team,,,22.0,4.0,0 days 00:01:42.107000,,,18,United States,2026,13.2,5,9.0,12.9,incident,0.5,13.2,5.0
+13,0.0,21,55,Lapped,5,BOR,Gabriel,Bortoleto,audi,Audi,5730847.0,0 days 00:00:14.197000,2.0,53.0,0 days 00:01:38.393000,,,18,United States,2026,15.8,5,18.0,13.1,finished,1.0,15.11111111111111,4.5
+20,0.0,19,48,Retired,77,BOT,Valtteri,Bottas,cadillac,Cadillac F1 Team,,,21.0,32.0,0 days 00:01:42.012000,,,18,United States,2026,18.8,5,,18.2,incident,0.5,18.75,4.0
+21,0.0,20,35,Retired,43,COL,Franco,Colapinto,alpine,Alpine F1 Team,,,17.0,33.0,0 days 00:01:41.087000,,,18,United States,2026,13.4,5,17.0,13.1,incident,0.5,12.0,4.0
+10,1.0,10,56,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,5804166.0,0 days 00:01:27.516000,13.0,55.0,0 days 00:01:40.193000,,,18,United States,2026,12.8,5,19.0,13.1,finished,1.0,12.222222222222221,4.5
+6,8.0,3,56,Finished,6,HAD,Isack,Hadjar,red_bull,Red Bull,5751023.0,0 days 00:00:34.373000,6.0,44.0,0 days 00:01:39.399000,,,18,United States,2026,6.0,5,16.0,4.7,finished,1.0,6.0,5.0
+4,12.0,5,56,Finished,44,HAM,Lewis,Hamilton,ferrari,Ferrari,5735165.0,0 days 00:00:18.515000,3.0,48.0,0 days 00:01:38.457000,,,18,United States,2026,8.6,5,4.0,7.9,finished,1.0,7.111111111111111,4.5
+11,0.0,11,56,Finished,27,HUL,Nico,Hülkenberg,audi,Audi,5811595.0,0 days 00:01:34.945000,14.0,53.0,0 days 00:01:40.323000,,,18,United States,2026,10.4,5,8.0,13.1,finished,1.0,10.4,5.0
+9,2.0,9,56,Finished,30,LAW,Liam,Lawson,rb,RB F1 Team,5795833.0,0 days 00:01:19.183000,8.0,56.0,0 days 00:01:39.652000,,,18,United States,2026,9.2,5,11.0,9.9,finished,1.0,9.2,5.0
+2,18.0,4,56,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,5729728.0,0 days 00:00:13.078000,1.0,42.0,0 days 00:01:37.976000,,,18,United States,2026,7.2,5,3.0,7.9,finished,1.0,5.555555555555555,4.5
+12,0.0,14,55,Lapped,41,LIN,Arvid,Lindblad,rb,RB F1 Team,5722994.0,0 days 00:00:06.344000,7.0,43.0,0 days 00:01:39.422000,,,18,United States,2026,9.8,5,,9.9,finished,1.0,9.8,5.0
+5,10.0,8,56,Finished,1,NOR,Lando,Norris,mclaren,McLaren,5747171.0,0 days 00:00:30.521000,9.0,43.0,0 days 00:01:39.811000,,,18,United States,2026,7.8,5,2.0,7.6,finished,1.0,6.555555555555555,4.5
+14,0.0,15,55,Lapped,31,OCO,Esteban,Ocon,haas,Haas F1 Team,5737692.0,0 days 00:00:21.042000,19.0,23.0,0 days 00:01:41.418000,,,18,United States,2026,12.6,5,15.0,12.9,finished,1.0,12.6,5.0
+19,0.0,18,55,Lapped,11,PER,Sergio,Pérez,cadillac,Cadillac F1 Team,5799459.0,0 days 00:01:22.809000,20.0,55.0,0 days 00:01:41.680000,,,18,United States,2026,17.6,5,,18.2,finished,1.0,17.333333333333332,4.5
+7,6.0,7,56,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,5769324.0,0 days 00:00:52.674000,15.0,19.0,0 days 00:01:40.328000,,,18,United States,2026,7.4,5,5.0,7.6,finished,1.0,7.4,5.0
+8,4.0,6,56,Finished,63,RUS,George,Russell,mercedes,Mercedes,5770953.0,0 days 00:00:54.303000,11.0,29.0,0 days 00:01:39.928000,,,18,United States,2026,7.4,5,6.0,4.9,finished,1.0,6.0,4.5
+18,0.0,16,55,Lapped,55,SAI,Carlos,Sainz,williams,Williams,5779485.0,0 days 00:01:02.835000,16.0,41.0,0 days 00:01:40.353000,,,18,United States,2026,14.6,5,20.0,16.4,finished,1.0,14.11111111111111,4.5
+15,0.0,22,55,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,5766068.0,0 days 00:00:49.418000,12.0,43.0,0 days 00:01:40.189000,,,18,United States,2026,19.0,5,12.0,17.8,finished,1.0,17.833333333333332,3.0
+3,15.0,2,56,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5734135.0,0 days 00:00:17.485000,5.0,54.0,0 days 00:01:39.231000,,,18,United States,2026,1.8,5,1.0,4.7,finished,1.0,1.8,5.0
