@@ -1,0 +1,23 @@
+year,round,race,driverCode,constructorId,grid,weighted_avg_finish_last_5,previous_races_used,finish_same_race_previous_year,team_avg_finish_last_5,original_grid,special_start,predicted_score,predicted_position
+2026,19,Mexico City,HAM,ferrari,1,8.2,5.0,8.0,5.7,1,0,3.6027320182254385,1
+2026,19,Mexico City,RUS,mercedes,2,8.6,5.0,7.0,5.5,2,0,5.187867678589043,2
+2026,19,Mexico City,VER,red_bull,5,1.8,5.0,3.0,3.9,5,0,5.319373765939945,3
+2026,19,Mexico City,ANT,mercedes,4,2.4,5.0,6.0,5.5,4,0,5.5525569516139175,4
+2026,19,Mexico City,NOR,mclaren,6,8.0,5.0,1.0,7.9,6,0,6.013336209900061,5
+2026,19,Mexico City,LEC,ferrari,3,3.2,5.0,2.0,5.7,3,0,6.216775669334107,6
+2026,19,Mexico City,HAD,red_bull,7,6.0,5.0,13.0,3.9,7,0,8.34165306890965,7
+2026,19,Mexico City,PIA,mclaren,12,7.8,5.0,5.0,7.9,12,0,8.678154952432044,8
+2026,19,Mexico City,LIN,rb,8,10.6,5.0,,10.2,8,0,11.249793308213969,9
+2026,19,Mexico City,GAS,alpine,9,13.4,5.0,15.0,14.6,9,0,12.15282000477163,10
+2026,19,Mexico City,HUL,audi,10,10.2,5.0,19.0,13.2,10,0,12.99479022532621,11
+2026,19,Mexico City,BEA,haas,14,14.6,5.0,4.0,13.4,14,0,13.708424108299106,12
+2026,19,Mexico City,COL,alpine,11,15.8,5.0,16.0,14.6,11,0,14.286777570826722,13
+2026,19,Mexico City,BOR,audi,13,16.2,5.0,10.0,13.2,13,0,14.287585611140948,14
+2026,19,Mexico City,LAW,rb,22,8.2,5.0,20.0,10.2,22,0,14.303249925255347,15
+2026,19,Mexico City,SAI,williams,15,15.6,5.0,17.0,16.9,15,0,14.460507313220553,16
+2026,19,Mexico City,HIR,haas,18,,0.0,,13.4,18,0,14.920841986301737,17
+2026,19,Mexico City,ALB,williams,16,18.2,5.0,12.0,16.9,16,0,16.001426896632786,18
+2026,19,Mexico City,ALO,aston_martin,17,15.6,5.0,18.0,16.8,17,0,16.329131107726695,19
+2026,19,Mexico City,PER,cadillac,20,17.8,5.0,,18.4,20,0,17.23212520812522,20
+2026,19,Mexico City,STR,aston_martin,19,18.0,5.0,14.0,16.8,19,0,17.973574363845643,21
+2026,19,Mexico City,BOT,cadillac,21,19.0,5.0,,18.4,21,0,18.777110424763276,22

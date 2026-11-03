@@ -2233,3 +2233,25 @@ position,points,grid,laps,status,driverNumber,driverCode,givenName,familyName,co
 18,0.0,16,55,Lapped,55,SAI,Carlos,Sainz,williams,Williams,5779485.0,0 days 00:01:02.835000,16.0,41.0,0 days 00:01:40.353000,,,18,United States,2026,14.6,5,20.0,16.4,finished,1.0,14.11111111111111,4.5
 15,0.0,22,55,Lapped,18,STR,Lance,Stroll,aston_martin,Aston Martin,5766068.0,0 days 00:00:49.418000,12.0,43.0,0 days 00:01:40.189000,,,18,United States,2026,19.0,5,12.0,17.8,finished,1.0,17.833333333333332,3.0
 3,15.0,2,56,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,5734135.0,0 days 00:00:17.485000,5.0,54.0,0 days 00:01:39.231000,,,18,United States,2026,1.8,5,1.0,4.7,finished,1.0,1.8,5.0
+14,0.0,16,71,Finished,23,ALB,Alexander,Albon,williams,Williams,8456334.0,0 days 00:00:27.562000,17.0,50.0,0 days 00:01:21.114000,,,19,Mexico City,2026,18.2,5,12.0,16.9,finished,1.0,17.571428571428573,3.5
+22,0.0,17,5,Retired,14,ALO,Fernando,Alonso,aston_martin,Aston Martin,,,21.0,2.0,0 days 00:01:23.544000,,,19,Mexico City,2026,15.6,5,18.0,16.8,incident,0.5,15.0,4.5
+3,15.0,4,71,Finished,12,ANT,Andrea Kimi,Antonelli,mercedes,Mercedes,8432778.0,0 days 00:00:04.006000,3.0,64.0,0 days 00:01:19.427000,,,19,Mexico City,2026,2.4,5,6.0,5.5,finished,1.0,2.4,5.0
+19,0.0,14,47,Retired,87,BEA,Oliver,Bearman,haas,Haas F1 Team,,,16.0,43.0,0 days 00:01:21.068000,,,19,Mexico City,2026,14.6,5,4.0,13.4,incident,0.5,13.777777777777779,4.5
+11,0.0,13,71,Finished,5,BOR,Gabriel,Bortoleto,audi,Audi,8450813.0,0 days 00:00:22.041000,14.0,55.0,0 days 00:01:20.872000,,,19,Mexico City,2026,16.2,5,10.0,13.2,finished,1.0,15.555555555555555,4.5
+20,0.0,21,42,Retired,77,BOT,Valtteri,Bottas,cadillac,Cadillac F1 Team,,,20.0,33.0,0 days 00:01:22.487000,,,19,Mexico City,2026,19.0,5,,18.4,incident,0.5,18.857142857142858,3.5
+8,4.0,11,71,Finished,43,COL,Franco,Colapinto,alpine,Alpine F1 Team,8448976.0,0 days 00:00:20.204000,12.0,50.0,0 days 00:01:20.750000,,,19,Mexico City,2026,15.8,5,16.0,14.6,finished,1.0,14.142857142857142,3.5
+10,1.0,9,71,Finished,10,GAS,Pierre,Gasly,alpine,Alpine F1 Team,8450255.0,0 days 00:00:21.483000,13.0,50.0,0 days 00:01:20.754000,,,19,Mexico City,2026,13.4,5,15.0,14.6,finished,1.0,12.88888888888889,4.5
+12,0.0,7,71,Finished,6,HAD,Isack,Hadjar,red_bull,Red Bull,8451275.0,0 days 00:00:22.503000,7.0,43.0,0 days 00:01:20.244000,,,19,Mexico City,2026,6.0,5,13.0,3.9,finished,1.0,6.0,5.0
+2,18.0,1,71,Finished,44,HAM,Lewis,Hamilton,ferrari,Ferrari,8429571.0,0 days 00:00:00.799000,1.0,50.0,0 days 00:01:19.268000,,,19,Mexico City,2026,8.2,5,8.0,5.7,finished,1.0,6.666666666666667,4.5
+13,0.0,18,71,Finished,50,HIR,Ryo,Hirakawa,haas,Haas F1 Team,8454145.0,0 days 00:00:25.373000,15.0,71.0,0 days 00:01:20.984000,,,19,Mexico City,2026,,0,,13.4,finished,1.0,,
+16,0.0,10,71,Finished,27,HUL,Nico,Hülkenberg,audi,Audi,8458749.0,0 days 00:00:29.977000,11.0,70.0,0 days 00:01:20.732000,,,19,Mexico City,2026,10.2,5,19.0,13.2,finished,1.0,10.2,5.0
+9,2.0,22,71,Finished,30,LAW,Liam,Lawson,rb,RB F1 Team,8449671.0,0 days 00:00:20.899000,10.0,50.0,0 days 00:01:20.713000,,,19,Mexico City,2026,8.2,5,20.0,10.2,finished,1.0,8.2,5.0
+4,12.0,3,71,Finished,16,LEC,Charles,Leclerc,ferrari,Ferrari,8439479.0,0 days 00:00:10.707000,5.0,64.0,0 days 00:01:19.851000,,,19,Mexico City,2026,3.2,5,2.0,5.7,finished,1.0,3.2,5.0
+18,0.0,8,58,Retired,41,LIN,Arvid,Lindblad,rb,RB F1 Team,,,8.0,50.0,0 days 00:01:20.555000,,,19,Mexico City,2026,10.6,5,,10.2,incident,0.5,10.6,5.0
+5,10.0,6,71,Finished,1,NOR,Lando,Norris,mclaren,McLaren,8440550.0,0 days 00:00:11.778000,4.0,50.0,0 days 00:01:19.800000,,,19,Mexico City,2026,8.0,5,1.0,7.9,finished,1.0,6.777777777777778,4.5
+17,0.0,20,71,Finished,11,PER,Sergio,Pérez,cadillac,Cadillac F1 Team,8459467.0,0 days 00:00:30.695000,18.0,50.0,0 days 00:01:21.256000,,,19,Mexico City,2026,17.8,5,,18.4,finished,1.0,17.555555555555557,4.5
+7,6.0,12,71,Finished,81,PIA,Oscar,Piastri,mclaren,McLaren,8448247.0,0 days 00:00:19.475000,9.0,52.0,0 days 00:01:20.690000,,,19,Mexico City,2026,7.8,5,5.0,7.9,finished,1.0,7.8,5.0
+6,8.0,2,71,Finished,63,RUS,George,Russell,mercedes,Mercedes,8441035.0,0 days 00:00:12.263000,6.0,51.0,0 days 00:01:20.147000,,,19,Mexico City,2026,8.6,5,7.0,5.5,finished,1.0,7.333333333333333,4.5
+15,0.0,15,71,Finished,55,SAI,Carlos,Sainz,williams,Williams,8457410.0,0 days 00:00:28.638000,19.0,51.0,0 days 00:01:21.339000,,,19,Mexico City,2026,15.6,5,17.0,16.9,finished,1.0,15.222222222222221,4.5
+21,0.0,19,5,Retired,18,STR,Lance,Stroll,aston_martin,Aston Martin,,,22.0,2.0,0 days 00:01:23.696000,,,19,Mexico City,2026,18.0,5,14.0,16.8,incident,0.5,16.714285714285715,3.5
+1,25.0,5,71,Finished,3,VER,Max,Verstappen,red_bull,Red Bull,8428772.0,0 days 02:20:28.772000,2.0,50.0,0 days 00:01:19.328000,,,19,Mexico City,2026,1.8,5,3.0,3.9,finished,1.0,1.8,5.0
